@@ -2,7 +2,69 @@ body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-body, h1, h2, h3, h4, #box, figure, input {
-    margin: 0;
-    padding: 0;
+/* Regras de dimensionamento de caixa*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margem e padding padrão */
+* {
+  padding: 100, 47;  
+  margin: 0;
+}
+
+/* Remover estilos de lista em elementos ul, ol com uma função de lista, o que sugere que o estilo padrão será removido */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Defini padrões de raiz do núcleo */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Defini padrões do body */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Elementos que não têm uma classe obtêm estilo padrão */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Torne as imagens mais fáceis de trabalhar */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Herdar fontes para entradas e botões */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove todas as animações, transições e rolagem suave para pessoas que preferem não vê-las */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
