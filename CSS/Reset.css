@@ -13,6 +13,7 @@ body {
 * {
   padding: 100, 47;  
   margin: 0;
+  text-decoration: none;
 }
 
 /* Remover estilos de lista em elementos ul, ol com uma função de lista, o que sugere que o estilo padrão será removido */
