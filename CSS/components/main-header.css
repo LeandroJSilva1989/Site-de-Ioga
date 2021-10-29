@@ -4,7 +4,7 @@
     
 }
 
-.main-header .list {
+.main-header .menu-navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
