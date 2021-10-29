@@ -3,3 +3,7 @@
     align-items: center;
     
 }
+
+.main-header .list {
+    justify-content: space-around;
+}
