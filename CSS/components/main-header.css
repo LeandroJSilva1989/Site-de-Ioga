@@ -4,10 +4,6 @@
 }
 
 .main-header .menu-navigation {
-    display: flex;
+    margin-right: auto;
 }
 
-.main-header .menu-list {
-    margin-left: auto;
-    align-items: center;
-}
