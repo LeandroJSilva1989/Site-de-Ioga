@@ -33,6 +33,9 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding: 47px 100px; 
+  background-position: 100%;
+  background-size: auto;
+  
 }
 
 /* Elementos que não têm uma classe obtêm estilo padrão */
