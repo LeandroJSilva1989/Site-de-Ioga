@@ -36,7 +36,7 @@ body {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-image.png);
   background-position: 100%;
   background-size: auto;
-
+  height: 728px;
 }
 
 /* Elementos que não têm uma classe obtêm estilo padrão */
