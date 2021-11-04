@@ -1,5 +1,13 @@
 .main-box {
-    display: inline-block;
+    margin-top: 99px;
+    margin-bottom: 49px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: initial;
+    display: flow-root;
     
 }
 
+.main-box .main-subtitle {
+    color: #FF1448;
+}
