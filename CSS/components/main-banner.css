@@ -17,12 +17,12 @@
 }
 
 .main-banner .new-search input {
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px;
     padding: 10px 15px;
 }
 
 .main-banner .new-search button {
-    border-radius: 8px 8px 8px 8px;
+    padding: 8px 8px;
     align-items: center;
     color: #FF1448;
     background-color: #FFAEC0 19.22%;
