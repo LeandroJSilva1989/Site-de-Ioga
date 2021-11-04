@@ -25,6 +25,7 @@
 .main-banner .new-search button {
     padding: 8px;
     border-radius: 8px ;
+    border: none;
     color: #FF1448;
     background-color: rgba(255, 174, 192, 19%);
 }
