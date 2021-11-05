@@ -1,11 +1,12 @@
 .main-box {
     margin-top: 99px;
     margin-bottom: 49px;
-    font-size: 70px;
+    font-size: 46px;
     font-weight: 700;
     line-height: initial;
-    display: flow-root;
-    
+    display: block;
+    width: 502px;
+    height: 255px;
 }
 
 .main-box .main-subtitle {

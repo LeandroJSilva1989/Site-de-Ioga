@@ -7,12 +7,12 @@
 }
 
 .main-banner .wrapper {
-    display: contents;
+    display: flow-root;
 
 }
 
 .main-banner .new-search {
-    display: contents;
+    display: block;
 
 }
 
