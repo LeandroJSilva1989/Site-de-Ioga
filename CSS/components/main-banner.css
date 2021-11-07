@@ -19,7 +19,7 @@
 .main-banner .new-search input {
     border-radius: 8px;
     padding: 10px 15px;
-    
+    outline: 0;
 }
 
 .main-banner .new-search .button-search {
@@ -32,6 +32,7 @@
     height: 46px;
     cursor: pointer;
 }
+
 ::-webkit-input-placeholder {
     font-style: italic;
 }
