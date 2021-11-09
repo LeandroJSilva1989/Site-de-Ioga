@@ -1,8 +1,8 @@
 .main-banner {
-    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
-    background-repeat: no-repeat;
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png) ;
+    background-repeat: no-repeat, no-repeat;
     height: 481px;
-    background-position: right;
+    background-position: right, left;
     margin-top: 27px;
 }
 
