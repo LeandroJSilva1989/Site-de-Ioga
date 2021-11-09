@@ -39,7 +39,7 @@ body {
   padding: 47px 100px 0; 
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-image.png);
   background-position: 6% 90%;
-  background-size: auto;
+  background-size: auto, cover;
   background-repeat: no-repeat, no-repeat;
   height: 728px;
 }
