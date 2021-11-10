@@ -6,10 +6,7 @@ body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-/* Regras de dimensionamento de caixa*/
-* {
-  box-sizing: border-box;
-}
+
 
 /* Remove margem e padding padrão */
 * {
