@@ -1,7 +1,40 @@
-:checked ~ .toggle__decor {
-    background: rebeccapurple;
+.main-toggle {
+    display: none;
 }
-  
-:checked ~ .toggle__decor .toggle__thumb {
-    transform: translateX(var(--metric-toggle-thumb-size)) rotate(270deg);
+
+.main-togle + label {
+    width:  32px;
+    height: 20px;
+    background: lightgray;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+
+}
+
+.main-toggle + label:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 200ms;
+}
+
+.main-toggle:checked + label {
+    background: blue;
+}
+
+.main-toggle:checked + label:before {
+    content: '';
+    left: calc(100% - 22px);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
 }
