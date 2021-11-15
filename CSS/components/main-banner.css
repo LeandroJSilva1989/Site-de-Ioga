@@ -38,9 +38,9 @@
     font-style: italic;
 }
 
-.main-banner .maintoggle {
+.main-banner .main-toggle {
     display: flex;
     position: center;
     padding: 20px;
-    
+
 }
