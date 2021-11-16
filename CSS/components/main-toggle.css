@@ -13,7 +13,7 @@
     transition: 200ms;
     cursor: pointer;
     margin-top: 88px;
-    transform: rotate(90deg) translateX(62%);
+    transform: rotate(90deg) translateX(-62%);
     margin-left: 50%;
     border: solid rgba(255, 20, 72, 0.3);
 
