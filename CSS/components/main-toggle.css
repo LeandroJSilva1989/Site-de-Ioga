@@ -5,7 +5,7 @@
 .main-toggle + label {
     width:  29px;
     height: 12px;
-    background: lightgray;
+    background: white;
     display: block;
     position: relative;
     border-radius: 20px;
@@ -24,7 +24,7 @@
     position: absolute;
     width: 12px;
     height: 12px;
-    background: white;
+    background: rgba(255, 20, 72, 0.69);
     display: block;
     border-radius: 50%;
     right: unset;
@@ -42,5 +42,4 @@
     left: calc(100% - 15px);
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
     background: rgba(255, 20, 72, 0.69);
-    background: lightgray;
 }
