@@ -37,10 +37,3 @@
 ::-webkit-input-placeholder {
     font-style: italic;
 }
-
-.main-banner .main-toggle {
-    display: flex;
-    position: center;
-    padding: 20px;
-
-}
