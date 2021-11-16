@@ -3,8 +3,8 @@
 }
 
 .main-toggle + label {
-    width:  12px;
-    height: 29px;
+    width:  29px;
+    height: 12px;
     background: lightgray;
     display: block;
     position: relative;
@@ -12,15 +12,18 @@
     padding: 2px;
     transition: 200ms;
     cursor: pointer;
-    border-color: rgba(255, 20, 72, 0.3);
+    margin-top: 88px;
+    transform: rotate(90deg) translateX(62%);
+    margin-left: 50%;
+    border: solid rgba(255, 20, 72, 0.3);
 
 }
 
 .main-toggle + label:before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     background: white;
     display: block;
     border-radius: 50%;
@@ -32,6 +35,7 @@
 
 .main-toggle:checked + label {
     background: rgba(255, 20, 72, 0.69);
+    background: lightgray;
 }
 
 .main-toggle:checked + label:before {
