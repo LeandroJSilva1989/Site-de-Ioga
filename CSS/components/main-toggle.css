@@ -1,5 +1,5 @@
 .main-toggle {
-    display: none;
+   display: none;
 }
 
 .main-toggle + label {
@@ -34,12 +34,13 @@
 }
 
 .main-toggle:checked + label {
-    background: rgba(255, 20, 72, 0.69);
-    background: lightgray;
+   
 }
 
 .main-toggle:checked + label:before {
     content: '';
     left: calc(100% - 15px);
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    background: rgba(255, 20, 72, 0.69);
+    background: lightgray;
 }
