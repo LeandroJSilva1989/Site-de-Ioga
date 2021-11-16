@@ -30,7 +30,7 @@
 }
 
 .main-toggle:checked + label {
-    background: blue;
+    background: rgba(255, 20, 72, 0.69);
 }
 
 .main-toggle:checked + label:before {
