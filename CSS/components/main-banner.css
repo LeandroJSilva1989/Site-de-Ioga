@@ -8,6 +8,7 @@
 
 .main-banner .wrapper {
     display: flow-root;
+    padding: 47px 100px 0; 
 }
 
 .main-banner .new-search {

@@ -1,6 +1,7 @@
 .main-header {
     display: flex;
     align-items: center;
+    padding: 47px 100px 0; 
 }
 
 .main-header .menu-navigation {
