@@ -1,6 +1,14 @@
 .main-skills {
-    display: ;
+    display: flex;
     box-sizing: border-box;
     padding: 47px 100px 0; 
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
+}
+
+.main-skills .main-title .-second {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    
 }
