@@ -2,3 +2,15 @@
     display: flex;
     justify-content: space-around;
 }
+
+.learnig {
+    background-color: #ffffff;
+    align-items: center;
+    width: 304px;
+    height: 348px;
+    border-radius: 10px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+
+}
