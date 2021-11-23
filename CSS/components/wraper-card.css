@@ -10,8 +10,12 @@
     width: 304px;
     height: 348px;
     border-radius: 10px;
-    padding-top: 36px;
     padding-bottom: 36px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .wraper-card .card-expertise {
@@ -20,8 +24,12 @@
     width: 304px;
     height: 348px;
     border-radius: 10px;
-    padding-top: 36px;
     padding-bottom: 36px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .wraper-card .card-experts {
@@ -30,6 +38,10 @@
     width: 304px;
     height: 348px;
     border-radius: 10px;
-    padding-top: 36px;
     padding-bottom: 36px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
