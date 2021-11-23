@@ -6,7 +6,6 @@
 
 .wraper-card .card-learning {
     background-color: #ffffff;
-    align-items: center;
     width: 304px;
     height: 348px;
     border-radius: 10px;
@@ -20,7 +19,6 @@
 
 .wraper-card .card-expertise {
     background-color: #ffffff;
-    align-items: center;
     width: 304px;
     height: 348px;
     border-radius: 10px;
@@ -34,7 +32,6 @@
 
 .wraper-card .card-experts {
     background-color: #ffffff;
-    align-items: center;
     width: 304px;
     height: 348px;
     border-radius: 10px;
