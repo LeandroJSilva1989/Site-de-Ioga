@@ -1,5 +1,7 @@
 .find-tutor {
-    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-image.png);
+    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-image.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right, 18% 10%, 0% 95%;
     display: block;
     height: 992px;
 }
