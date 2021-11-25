@@ -6,6 +6,11 @@
     height: 992px;
 }
 
+.find-tutor .wraper-tutor {
+    margin-left: 196px;
+    margin-right: 196px;
+}
+
 .find-tutor .main-title {
     font-size: 20px;
     line-height: 20px;
