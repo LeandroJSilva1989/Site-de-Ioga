@@ -1,10 +1,10 @@
-.wraper-tutor {
+.wrapper-tutor {
     display: block;
     padding-left: 119px;
     padding-right: 119px;
 }
 
-.wraper-tutor .post-requirement {
+.wrapper-tutor .post-requirement {
     display: inline-block;
     width: min-content;
     font-style: normal;

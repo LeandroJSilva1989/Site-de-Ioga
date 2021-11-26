@@ -1,10 +1,10 @@
-.wraper-card {
+.wrapper-card {
     margin-top: 46px;
     display: flex;
     justify-content: space-around;
 }
 
-.wraper-card .card-learning {
+.wrapper-card .card-learning {
     background-color: #ffffff;
     width: 304px;
     height: 348px;
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.wraper-card .card-expertise {
+.wrapper-card .card-expertise {
     background-color: #ffffff;
     width: 304px;
     height: 348px;
@@ -28,7 +28,7 @@
     justify-content: center;
 }
 
-.wraper-card .card-experts {
+.wrapper-card .card-experts {
     background-color: #ffffff;
     width: 304px;
     height: 348px;
@@ -40,6 +40,6 @@
     justify-content: center;
 }
 
-.wraper-card .main-subtitle {
+.wrapper-card .main-subtitle {
     font-weight: 600;
 }
