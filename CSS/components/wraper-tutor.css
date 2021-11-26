@@ -1,0 +1,13 @@
+.wraper-tutor {
+    display: block;
+    padding-left: 119px;
+    padding-right: 119px;
+}
+
+.wraper-tutor .post-requirement {
+    display: inline-block;
+    width: min-content;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
