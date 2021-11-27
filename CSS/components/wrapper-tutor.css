@@ -11,8 +11,6 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
-    color: #676767;
-    ;
 }
 
 .wrapper-tutor .main-subtitle {
@@ -21,8 +19,11 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    margin-top: 24px;
     margin-bottom: 10px;
 }
-.wrapper-tutor p {
+
+.wrapper-tutor .description-requirement {
     color: #676767;
+
 }
