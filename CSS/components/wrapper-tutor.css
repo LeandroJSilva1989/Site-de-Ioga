@@ -7,11 +7,12 @@
 .wrapper-tutor .post-requirement {
     display: inline-block;
     width: 192px;
-    font-style: normal;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    color: #676767;
+    ;
 }
 
 .wrapper-tutor .main-subtitle {
@@ -21,4 +22,7 @@
     text-align: center;
     font-weight: 500;
     margin-bottom: 10px;
+}
+.wrapper-tutor p {
+    color: #676767;
 }
