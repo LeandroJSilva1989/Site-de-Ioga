@@ -1,5 +1,5 @@
 .wrapper-tutor {
-    display: block;
+    display: flex;
     padding-left: 119px;
     padding-right: 119px;
 }
