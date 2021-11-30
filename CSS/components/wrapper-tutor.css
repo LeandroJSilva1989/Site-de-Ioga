@@ -22,6 +22,15 @@
     font-weight: 500;
 }
 
+.wrapper-tutor .search-select {
+    display: inline-block;
+    width: 192px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
 .wrapper-tutor .main-subtitle {
     font-style: normal;
     font-size: 16px;
@@ -38,6 +47,11 @@
 }
 
 .wrapper-tutor .description-schedule {
+    color: #676767;
+
+}
+
+.wrapper-tutor .description-search {
     color: #676767;
 
 }
