@@ -3,6 +3,8 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 18% 10%, 0% 95%, 0% 95%;
     height: 992px;
+    padding-top: 53px;
+    box-sizing: border-box;
 }
 
 .find-tutor .main-title {
@@ -10,7 +12,6 @@
     line-height: 20px;
     text-align: center;
     font-weight: 600;
-    padding-top: 53px;
 }
 
 .find-tutor .main-subtitle {
@@ -18,5 +19,6 @@
     line-height: 20px;
     text-align: center;
     font-weight: 400;
+    margin-bottom: 94px;
 }
 
