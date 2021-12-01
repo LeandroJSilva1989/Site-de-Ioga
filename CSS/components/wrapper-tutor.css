@@ -2,7 +2,7 @@
     display: flex;
     padding-left: 119px;
     padding-right: 119px;
-    margin-top: 94px;
+    padding-top: 94px;
     height: inherit;
 }
 
@@ -24,6 +24,9 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    position: relative;
+    top: 227px;
+    left: 15px;
 }
 
 .wrapper-tutor .search-select {
@@ -34,6 +37,9 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    position: relative;
+    top: 227px;
+    left: 25px;
 }
 
 .wrapper-tutor .improve-skills {
@@ -44,6 +50,9 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    position: relative;
+    top: 227px;
+    left: 220px;
 }
 
 .wrapper-tutor .main-subtitle {

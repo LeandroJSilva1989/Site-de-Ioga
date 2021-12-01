@@ -2,13 +2,7 @@
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Eclipse.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 18% 10%, 0% 95%, 0% 95%;
-    display: block;
     height: 992px;
-}
-
-.find-tutor .wraper-tutor {
-    margin-left: 196px;
-    margin-right: 196px;
 }
 
 .find-tutor .main-title {
