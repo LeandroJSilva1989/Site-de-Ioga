@@ -1,7 +1,7 @@
 .wrapper-tutor {
     display: flex;
-    padding-left: 119px;
-    padding-right: 119px;
+    margin-left: 125px;
+    margin-right: 125px;
     height: 800px;
 }
 
@@ -24,8 +24,8 @@
     text-align: center;
     font-weight: 500;
     position: relative;
-    top: 227px;
-    left: 15px;
+    top: 396px;
+    left: 162px;
 }
 
 .wrapper-tutor .search-select {
@@ -37,8 +37,7 @@
     text-align: center;
     font-weight: 500;
     position: relative;
-    top: 227px;
-    left: 25px;
+    left: 374px;
 }
 
 .wrapper-tutor .improve-skills {
@@ -50,8 +49,8 @@
     text-align: center;
     font-weight: 500;
     position: relative;
-    top: 227px;
-    left: 220px;
+    top: 396px;
+    left: 565px;
 }
 
 .wrapper-tutor .main-subtitle {
