@@ -12,7 +12,7 @@
     width: 40px;
     transform: rotate(120deg) translateX();
     bottom: 140px;
-
+    position: absolute;
 }
 
 .wrapper-tutor .post-requirement {
