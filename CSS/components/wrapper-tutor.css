@@ -7,6 +7,10 @@
 
 .post-requirement::before {
     content: '';
+    height: 70px;
+    width: 5px;
+    border-top: 1px solid #FF1448;
+
 }
 
 .wrapper-tutor .post-requirement {
