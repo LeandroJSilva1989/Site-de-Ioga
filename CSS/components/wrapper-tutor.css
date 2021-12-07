@@ -5,13 +5,11 @@
     height: 800px;
 }
 
-.post-requirement::after {
+.logo::after {
     content: '';
     box-sizing: border-box;
-    height: 70px;
-    width: 5px;
-    border-top: 1px solid #FF1448;
-
+    border-top: 1px dashed #FF1448;
+    transform: rotate(120deg);
 }
 
 .wrapper-tutor .post-requirement {
