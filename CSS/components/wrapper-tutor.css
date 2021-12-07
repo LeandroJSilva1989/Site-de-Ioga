@@ -8,11 +8,10 @@
 .post-requirement::after {
     content: '';
     box-sizing: border-box;
-    border: 1px dashed #FF1448;
-    width: 40px;
-    transform: rotate(120deg) translateX(-62%);
-    bottom: 140px;
+    border: 2px dashed #FF1448;
+    transform: rotate(126deg);
     position: absolute;
+    width: 174px;
 }
 
 .wrapper-tutor .post-requirement {
