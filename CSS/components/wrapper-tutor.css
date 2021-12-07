@@ -10,6 +10,7 @@
     box-sizing: border-box;
     border-top: 1px dashed #FF1448;
     transform: rotate(120deg);
+    bottom: 140px;
 }
 
 .wrapper-tutor .post-requirement {
