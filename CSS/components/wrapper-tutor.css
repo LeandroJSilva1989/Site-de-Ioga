@@ -5,7 +5,7 @@
     height: 800px;
 }
 
-.post-requirement::before {
+.post-requirement::after {
     content: '';
     box-sizing: border-box;
     height: 70px;
