@@ -5,6 +5,10 @@
     height: 800px;
 }
 
+.post-requirement::before {
+    content: '';
+}
+
 .wrapper-tutor .post-requirement {
     display: inline-block;
     width: 192px;
