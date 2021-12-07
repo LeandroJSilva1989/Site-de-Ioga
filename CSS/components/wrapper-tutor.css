@@ -9,7 +9,7 @@
     content: '';
     box-sizing: border-box;
     border: 2px dashed #FF1448;
-    transform: rotate(126deg);
+    transform: rotate(126deg) translateX(62%);
     position: absolute;
     width: 174px;
 }
