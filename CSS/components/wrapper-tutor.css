@@ -10,9 +10,11 @@
     content: '';
     box-sizing: border-box;
     border: 2px dashed #FF1448;
-    transform: rotate(126deg) translateX(62%);
+    transform: rotate(54deg) translateX(-68%);
     position: absolute;
-    width: 174px;
+    width: 372px;
+    left: -131px;
+    top: 120px;
 }
 
 .wrapper-tutor .post-requirement {
