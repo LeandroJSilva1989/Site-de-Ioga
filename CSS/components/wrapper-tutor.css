@@ -5,6 +5,10 @@
     height: 800px;
 }
 
+#canvas {
+    color: blueviolet;
+}
+
 .demo-schedule::before {
     content: '';
     box-sizing: border-box;
