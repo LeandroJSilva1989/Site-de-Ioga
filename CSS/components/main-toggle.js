@@ -2,6 +2,7 @@ const canvas = document.getElementById('#canvas');
 const ctx = canvas.getContext('2d');
 
 ctx.lineWidth = 2;
+ctx.setLineDash([5, 15]);
 ctx.strokeStyle = 'red';
 ctx.beginPath();
 ctx.moveTo(30, 30);
