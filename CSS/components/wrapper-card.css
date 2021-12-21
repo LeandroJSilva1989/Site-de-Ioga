@@ -43,3 +43,15 @@
 .wrapper-card .main-subtitle {
     font-weight: 600;
 }
+
+.wrapper-card .personalized-learning {
+    background-color: #ffffff;
+    width: 304px;
+    height: 348px;
+    border-radius: 10px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
