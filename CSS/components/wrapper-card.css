@@ -42,13 +42,15 @@
 
 .wrapper-card .main-subtitle {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .wrapper-card .personalized-learning {
     background-color: #ffffff;
     width: 268px;
     height: 407px;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 16px 24px;
     border-radius: 10px;
     display: flex;
     text-align: justify;
