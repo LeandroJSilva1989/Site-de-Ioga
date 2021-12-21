@@ -5,7 +5,7 @@
     font-weight: 400;
     font-size: 58px;
     line-height: 70px;
-
+    margin-bottom: 38px;
 }
 
 .main-experts .description-experts {
@@ -15,6 +15,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 3px;
+    margin-bottom: 37px;
 }
 
 .main-experts .button-find {
