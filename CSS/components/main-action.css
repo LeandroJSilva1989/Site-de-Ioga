@@ -14,5 +14,15 @@
 
 .span {
     width: 10px;
-    background-color: #000000;
+    height: 10px;
+    background: red;
+    transition: width 2s;
+      transition-timing-function: ease;
+    transition-timing-function: linear;
+    display: block;
+}
+
+.span:hover {
+    text-decoration: dashed;
+transition: widht 2s;
 }
