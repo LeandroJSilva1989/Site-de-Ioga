@@ -14,11 +14,11 @@
     height: 10px;
     display: block;
     position: absolute;
-    bottom: 296px;
+    bottom: 184px;
     display: block;
     transition: all .2s ease-in-out;
 }
 
-.main-action a:hover::after {
+.main-action a:hover {
     width: 100%;
 }
