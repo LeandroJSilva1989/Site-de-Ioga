@@ -9,4 +9,5 @@
 
 .main-action:hover {
     text-decoration: dashed;
+    transition: widht 2s;
 }
