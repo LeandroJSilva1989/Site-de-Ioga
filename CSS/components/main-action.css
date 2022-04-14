@@ -17,12 +17,9 @@
     height: 10px;
     background: red;
     transition: width 2s;
-    transition-timing-function: ease;
     transition-timing-function: linear;
-    display: block;
 }
 
 .span:hover {
-    text-decoration: dashed;
-    transition: widht 2s;
+    width: 300px;
 }
