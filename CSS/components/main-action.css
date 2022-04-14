@@ -11,3 +11,7 @@
     text-decoration: dashed;
     transition: widht 2s;
 }
+
+.span {
+    width: 10px;
+}
