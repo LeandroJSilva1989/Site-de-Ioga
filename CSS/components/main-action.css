@@ -7,19 +7,17 @@
     line-height: 14.63px;
 }
 
-.main-action:hover {
-    text-decoration: dashed;
-    transition: widht 2s;
-}
-
-.span {
+.main-action::after {
+    content: "";
+    background-color: #62C370;
     width: 10px;
     height: 10px;
-    background: red;
-    transition: width 2s;
-    transition-timing-function: linear;
+    display: block;
+    position: absolute;
+    bottom: 216px;
+    display: block;
 }
 
-.span:hover {
-    width: 300px;
+.main-action a:hover::after {
+    width: 100%;
 }
