@@ -9,7 +9,7 @@
 
 .main-action::after {
     content: "";
-    background-color: #62C370;
+    background-color: #FF1448;
     width: 10px;
     height: 10px;
     display: block;
