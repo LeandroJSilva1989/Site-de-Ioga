@@ -1,8 +1,10 @@
 .wrapper-tutor {
     display: flex;
-    margin-left: 142px;
-    margin-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
     height: 800px;
+    position: relative;
+    width: 901px;
 }
 
 .wrapper-tutor .post-requirement {
@@ -13,6 +15,7 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+    position: absolute;
 }
 
 .wrapper-tutor .demo-schedule {
@@ -23,7 +26,7 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
-    position: relative;
+    position: absolute;
     top: 396px;
     left: 162px;
 }
@@ -36,8 +39,8 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
-    position: relative;
-    left: 374px;
+    position: absolute;
+    left: 549px;
 }
 
 .wrapper-tutor .improve-skills {
@@ -48,9 +51,9 @@
     line-height: 20px;
     text-align: center;
     font-weight: 500;
-    position: relative;
+    position: absolute;
     top: 396px;
-    left: 565px;
+    left: 688px;
 }
 
 .wrapper-tutor .main-subtitle {
@@ -64,8 +67,12 @@
 }
 
 .wrapper-tutor .linha-wrapper__tutor {
-    width: 250px;
+    width: 122px;
     z-index: -1;
+    position: absolute;
+    transform: rotate(-171deg);
+    left: 8rem;
+    bottom: -6rem;
 }
 
 .wrapper-tutor .description-requirement {
