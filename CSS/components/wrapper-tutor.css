@@ -63,6 +63,11 @@
     margin-bottom: 10px;
 }
 
+.wrapper-tutor .linha-wrapper__tutor {
+    width: 250px;
+    z-index: -1;
+}
+
 .wrapper-tutor .description-requirement {
     color: #676767;
 }
