@@ -6,19 +6,3 @@
     font-weight: 500;
     line-height: 14.63px;
 }
-
-.main-action::before {
-    content: "";
-    background-color: #FF1448;
-    width: 10px;
-    height: 10px;
-    display: block;
-    position: relative;
-    bottom: -12px;
-    display: block;
-    transition: all .2s ease-in-out;
-}
-
-.main-action::before:hover {
-    width: 100%;
-}
