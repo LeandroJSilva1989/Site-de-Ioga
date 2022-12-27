@@ -1,10 +1,11 @@
 .find-tutor {
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Eclipse.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 18% 114%, 17% 55%, 92% 5%;
+    background-position: 18% 110rem, 17% 35rem, 92% 5%;
     height: 992px;
     padding-top: 53px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .find-tutor .main-title {
