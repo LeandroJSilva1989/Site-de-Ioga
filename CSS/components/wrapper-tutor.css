@@ -75,6 +75,15 @@
     bottom: -6rem;
 }
 
+.wrapper-tutor .linha-wrapper__tutor__02 {
+    width: 122px;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(-171deg);
+    left: 8rem;
+    bottom: -6rem;
+}
+
 .wrapper-tutor .description-requirement {
     color: #676767;
 }
