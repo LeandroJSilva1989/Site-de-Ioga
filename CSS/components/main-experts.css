@@ -4,3 +4,33 @@
     padding: 47px 100px 0;
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
 }
+
+.main-experts .main-title-second {
+    display: block;
+    width: 352px;
+    height: 140px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    margin-bottom: 38px;
+}
+
+.main-experts .description-experts {
+    display: block;
+    width: 342px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 3px;
+    margin-bottom: 37px;
+}
+
+.main-experts .button-find {
+    border-radius: 8px;
+    border: none;
+    color: #FF1448;
+    background-color: rgba(255, 174, 192, 19%);
+    width: 131px;
+    height: 46px;
+    cursor: pointer;
+}
