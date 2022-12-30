@@ -86,13 +86,11 @@
 }
 
 .wrapper-tutor .linha-wrapper__tutor__03 {
-    width: 180px;
+    width: 117px;
     z-index: -1;
     position: absolute;
-    transform: rotate(-171deg);
-    left: 13rem;
-    top: -19rem;
-
+    left: 9rem;
+    top: 9rem;
 }
 
 .wrapper-tutor .description-requirement {
