@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: 20px;
+    height: fit-content;
 }
 
 .wrapper-card .card-learning {
@@ -59,16 +60,17 @@
 
 .wrapper-card .personalized-learning {
     background-color: #ffffff;
-    width: 268px;
+    max-width: 268px;
     height: 407px;
     font-size: 14px;
     padding: 16px 24px;
     border-radius: 10px;
     display: flex;
-    text-align: justify;
+    text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .wrapper-card .fitness-trainer {
