@@ -63,12 +63,12 @@
     word-spacing: 5px;
 }
 
-.wrapper-card .main-subtitle {
+.wrapper-card__experts .main-subtitle {
     font-weight: 600;
     font-size: 16px;
 }
 
-.wrapper-card .personalized-learning {
+.wrapper-card__experts .personalized-learning {
     background-color: #ffffff;
     max-width: 268px;
     height: 407px;
@@ -83,7 +83,7 @@
     box-sizing: border-box;
 }
 
-.wrapper-card .fitness-trainer {
+.wrapper-card__experts .fitness-trainer {
     background-color: #ffffff;
     max-width: 268px;
     height: 407px;
@@ -100,7 +100,7 @@
     top: 113px;
 }
 
-.wrapper-card .instrument-learning {
+.wrapper-card__experts .instrument-learning {
     background-color: #ffffff;
     max-width: 268px;
     height: 407px;
@@ -115,7 +115,7 @@
     box-sizing: border-box;
 }
 
-.wrapper-card .it-skills {
+.wrapper-card__experts .it-skills {
     background-color: #ffffff;
     max-width: 268px;
     height: 407px;
@@ -130,7 +130,7 @@
     align-items: center;
 }
 
-.wrapper-card img {
+.wrapper-card__experts img {
     margin-left: auto;
     margin-right: auto;
 }
