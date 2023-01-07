@@ -1,4 +1,14 @@
 .wrapper-card {
+    flex-wrap: wrap;
+    width: 1152px;
+    gap: 31px;
+    height: 571px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.wrapper-card__experts {
     margin-top: 46px;
     display: flex;
     flex-wrap: wrap;
