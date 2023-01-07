@@ -6,7 +6,6 @@
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    margin-top: 46px;
 }
 
 .wrapper-card__experts {
@@ -17,6 +16,7 @@
     gap: 31px;
     height: 910px;
     margin-right: auto;
+
 }
 
 .wrapper-card .card-learning {
