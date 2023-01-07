@@ -123,9 +123,8 @@
     border-radius: 10px;
     text-align: center;
     box-sizing: border-box;
-    position: absolute;
-    right: 315px;
-    bottom: 60px;
+    position: relative;
+    bottom: -111px;
     display: grid;
     align-items: center;
 }
