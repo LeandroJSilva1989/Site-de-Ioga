@@ -8,7 +8,12 @@
     position: relative;
 }
 
-.find-tutor .main-subtitle {
-    margin-bottom: 5.5625rem;
+.find-tutor .main-subtitle__find-tutor {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
 }
 
