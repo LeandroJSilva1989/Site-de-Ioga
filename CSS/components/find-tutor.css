@@ -8,18 +8,7 @@
     position: relative;
 }
 
-.find-tutor .main-title {
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 600;
-}
-
 .find-tutor .main-subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 94px;
+    margin-bottom: 5.5625rem;
 }
 

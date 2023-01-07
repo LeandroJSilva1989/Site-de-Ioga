@@ -1,21 +1,33 @@
 .main-skills {
     display: block;
-    padding: 47px 100px 0;
+    padding: 2.9375rem 6.25rem 0;
     height: 571px; 
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
+    padding-bottom: 4.625rem;
 }
 
-.main-skills .main-title {
-    font-size: 20px;
-    line-height: 20px;
+.main-title.-second {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding-top: 3.3125rem;
     text-align: center;
     font-weight: 600;
-    padding-top: 53px;
+    margin-bottom: 0.625rem;
 }
 
-.main-skills .main-subtitle {
-    font-size: 16px;
-    line-height: 20px;
+.main-subtitle.-second {
+    font-size: 1rem;
+    line-height: 1.25rem;
     text-align: center;
     font-weight: 400;
+    margin-bottom: 2.875rem;
+}
+
+
+
+.main-skills .main-subtitle__skills {
+    font-size: 1rem;
+    line-height: 4.375rem;
+    text-align: center;
+    font-weight: 600;
 }
