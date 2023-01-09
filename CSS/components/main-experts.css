@@ -2,9 +2,9 @@
     display: flex;
     position: relative;
     height: 1121px;
-    background-repeat: no-repeat no-repeat no-repeat;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: ;
-    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png),url(/assets/img/Exclude.svg),url(/assets/img/Group\ 22.svg) ;
+    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png),url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Exclude.svg),url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
 }
 
 .main-experts .main-subtitle__experts {
