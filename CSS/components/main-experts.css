@@ -17,12 +17,13 @@
     transform: translatey(-50%);
     margin-left: auto;
     background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Exclude.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
-    height: 551px;
+    height: 819px;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     max-width: min-content;
     align-content: center;
+    background-position: 135px 151px, 27px 777px;
 }
 
 .main-experts .main-title.-third {
