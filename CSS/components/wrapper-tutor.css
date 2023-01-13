@@ -5,6 +5,9 @@
     height: 800px;
     position: relative;
     width: 901px;
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Exclude.svg);
+    background-repeat: no-repeat;
+    background-position: 125px 334px;
 }
 
 .wrapper-tutor .post-requirement {

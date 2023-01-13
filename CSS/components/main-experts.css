@@ -5,6 +5,14 @@
     background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
 }
 
+.read-more {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 4.375rem;
+    color: #000000;
+    text-decoration: underline;
+}
+
 .main-experts .main-subtitle__experts {
     font-size: 1rem;
     font-weight: 600;

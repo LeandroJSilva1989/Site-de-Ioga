@@ -1,7 +1,10 @@
 .main-header {
     display: flex;
     align-items: center;
-    padding: 47px 100px 0; 
+    padding: 47px 100px 0;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-header .menu-navigation {

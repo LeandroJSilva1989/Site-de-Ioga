@@ -9,6 +9,9 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right, 13rem 10%, 0% 95%;
     display: flow-root;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
    
  
 }
