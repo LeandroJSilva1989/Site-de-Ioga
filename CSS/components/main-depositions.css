@@ -35,13 +35,19 @@
   display: flex;
   align-self: self-end;
   position: absolute;
+  gap: 16px;
 }
 
 .depositions-options span {
   content: "";
-  width: 2px;
-  height: 1px;
-  background-color: aquamarine;
+  width: 24px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #E2E4E8;
+}
+
+.depositions-options .span-active {
+  background-color: #258AFF;
 }
 
 .depositions-carousel {
