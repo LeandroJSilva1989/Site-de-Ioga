@@ -12,6 +12,8 @@
   background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
   background-repeat: no-repeat;
   background-position: top left, 699px 168px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-depositions {
@@ -33,6 +35,13 @@
   display: flex;
   align-self: self-end;
   position: absolute;
+}
+
+.depositions-options span {
+  content: "";
+  width: 2px;
+  height: 1px;
+  background-color: aquamarine;
 }
 
 .depositions-carousel {
