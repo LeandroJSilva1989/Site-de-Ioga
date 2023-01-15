@@ -1,7 +1,6 @@
 .main-banner {
     height: auto;
     margin-top: 27px;
-    padding: 0 100px 0;
 }
 
 .main-banner .wrapper {
@@ -37,6 +36,7 @@
     width: 150px;
     height: 46px;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 ::-webkit-input-placeholder {
