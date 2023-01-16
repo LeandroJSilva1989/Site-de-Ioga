@@ -10,11 +10,17 @@
 
 .nav-footer {
   display: flex;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .nav-footer ul {
   display: flex;
   gap: 30px;
+}
+
+.nav-footer ul li a {
+  color: #000000;
 }
 
 .main-footer .logo-footer {

@@ -97,4 +97,12 @@
   margin-bottom: 7px;
 }
 
+.follow a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 32px;
+  color: #1D293F;
+}
+
 
