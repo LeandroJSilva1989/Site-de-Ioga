@@ -2,15 +2,14 @@
   height: 200px;
   display: flex;
   align-items: center;
-  max-width: 920px;
+  max-width: 1125px;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-footer {
   display: flex;
-  gap: 115px;
 }
 
 .nav-footer ul {
@@ -20,4 +19,13 @@
 
 .main-footer .logo-footer {
   margin-left: 30px;
+}
+
+.social-media {
+  position: relative;
+  left: 102px;
+}
+
+.social-media ul li a i {
+  color: #F62C55;
 }
