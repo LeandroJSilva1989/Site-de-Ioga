@@ -6,7 +6,7 @@
 }
 
 .depositions-content {
-  height: 670px;
+  height: 840px;
   align-content: flex-end;
   display: grid;
   background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
@@ -14,6 +14,7 @@
   background-position: top left, 699px 168px;
   margin-left: auto;
   margin-right: auto;
+  width: 1125px;
 }
 
 .title-depositions {
@@ -51,23 +52,43 @@
 }
 
 .depositions-carousel {
+  height: 392px;
   display: flex;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .depositions-carousel__left {
   width: 300px;
   height: 283.06px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #E2E4E8;
+  padding: 28px;
+  line-height: 28px;
+  box-sizing: border-box;
 }
 
  .depositions-carousel__midle {
   width: 300px;
   height: 283.06px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #E2E4E8;
+  padding: 28px;
+  line-height: 28px;
+  box-sizing: border-box;
 }
 
 .depositions-carousel__rigth{
   width: 300px;
   height: 283.06px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #E2E4E8;
+  padding: 28px;
+  line-height: 28px;
+  box-sizing: border-box;
 }
 
 .description-depositions {
