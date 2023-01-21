@@ -11,6 +11,11 @@
 
 .depositions-buttons {
     display: flex;
+    position: relative;
+    bottom: 138px;
+    margin-left: auto;
+    width: fit-content;
+
 }
 
 .btn-arrow::before, .btn-arrow::after {
@@ -19,28 +24,30 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: #E2E4E8;
     transition: all 150ms ease-out;
 }
   
 .btn-arrow::before {
     width: 75%;
-    height: 25%;
+    height: 17%;
     border-radius: 10px;
 }
 
 .btn-arrow::after {
-    width: 25%;
+    width: 17%;
     height: 75%;
     border-radius: 10px;
 }
 
 .btn-arrow:hover, .btn-arrow:focus {
-    background-color: rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   background: transparent;
 }
 
 .btn-arrow:hover::before, .btn-arrow:hover::after, .btn-arrow:focus::before, .btn-arrow:focus::after {
-    background-color: #404040;
+    background-color: #258AFF;
+    
 }
 
 .btn-arrow.btn-arrow-left::before, .btn-arrow.btn-arrow-left::after, .btn-arrow.btn-arrow-right::before, .btn-arrow.btn-arrow-right::after {
