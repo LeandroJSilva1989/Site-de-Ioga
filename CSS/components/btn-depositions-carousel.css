@@ -2,10 +2,15 @@
     color: transparent;
     display: block;
     position: relative;
-    width: 6rem;
-    height: 6rem;
-    background-color: rgba(0, 0, 0, 0.05);
+    width: 2rem;
+    height: 2rem;
     transition: all 150ms ease-out;
+    border: none;
+    background: transparent;
+}
+
+.depositions-buttons {
+    display: flex;
 }
 
 .btn-arrow::before, .btn-arrow::after {
