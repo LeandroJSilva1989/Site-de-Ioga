@@ -1,3 +1,7 @@
-.main-toggle:checked>body {
+.main-toggle:checked body {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-dark.jpg);
+}
+
+body:has(.main-toggle:checked) {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-dark.jpg);
 }
