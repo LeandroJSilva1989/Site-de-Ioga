@@ -7,6 +7,10 @@
     margin-right: auto;
 }
 
+.main-header .menu-navigation ul {
+    display: flex;
+}
+
 .main-header .menu-navigation {
     margin-right: auto;
 
