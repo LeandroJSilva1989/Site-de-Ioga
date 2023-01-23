@@ -39,6 +39,10 @@
   gap: 16px;
 }
 
+.depositions-options a {
+  display: flex;
+}
+
 .depositions-options span {
   content: "";
   width: 24px;
