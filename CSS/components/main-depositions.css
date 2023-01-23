@@ -39,7 +39,7 @@
   gap: 16px;
 }
 
-.depositions-options span {
+.depositions-options .nav-depositions li a {
   content: "";
   width: 24px;
   height: 5px;
