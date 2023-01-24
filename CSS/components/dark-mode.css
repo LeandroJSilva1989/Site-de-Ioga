@@ -1,9 +1,52 @@
-.main-toggle:checked body {
+/*.main-toggle:checked body {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
 }
 
- body .main-skills .main-experts:has(.main-toggle:checked) { 
+ body, .main-skills.main-experts:has(.main-toggle:checked) { 
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
   
 
+}*/
+
+.dark-preview{
+  background: #0d0d0d;
+}
+
+.dark-preview div.btn-container i.fa-sun-o{
+  color: #777;
+}
+
+.dark-preview div.btn-container i.fa-moon-o{
+  color: #fff;
+  text-shadow: 0px 0px 11px #fff;
+}
+
+.white-preview{
+  background: #fff;
+}
+
+.white-preview div.btn-container i.fa-sun-o{
+  color: #ffa500;
+  text-shadow: 0px 0px 16px #ffa500;
+}
+
+.white-preview div.btn-container i.fa-moon-o{
+  color: #777;
+}
+
+p.by {
+  
+}
+
+p.by a{
+  text-decoration: none;
+  color: #000;
+}
+
+.dark-preview p.by a{
+  color: #777;
+}
+
+.white-preview p.by a{
+  color: #000;
 }

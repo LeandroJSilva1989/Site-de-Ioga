@@ -1,8 +1,8 @@
-.main-toggle {
+.btn-color-mode-switch-inner {
    display: none;
 }
 
-.main-toggle + label {
+.btn-color-mode-switch-inner + label {
     width:  29px;
     height: 12px;
     background: white;
@@ -19,7 +19,7 @@
 
 }
 
-.main-toggle + label:before {
+.btn-color-mode-switch-inner + label:before {
     content: '';
     position: absolute;
     width: 12px;
@@ -33,7 +33,7 @@
     transition: 200ms;
 }
 
-.main-toggle:checked + label:before {
+.btn-color-mode-switch-inner:checked + label:before {
     content: '';
     left: calc(100% - 15px);
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
