@@ -2,7 +2,7 @@
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
 }
 
- *:has(.main-toggle:checked) { 
+ body .main-skills .main-experts:has(.main-toggle:checked) { 
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
   
 
