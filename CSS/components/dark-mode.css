@@ -33,20 +33,3 @@
 .white-preview div.btn-container i.fa-moon-o{
   color: #777;
 }
-
-p.by {
-  
-}
-
-p.by a{
-  text-decoration: none;
-  color: #000;
-}
-
-.dark-preview p.by a{
-  color: #777;
-}
-
-.white-preview p.by a{
-  color: #000;
-}
