@@ -11,25 +11,3 @@
 .dark-preview{
   background: #0d0d0d;
 }
-
-.dark-preview div.btn-container i.fa-sun-o{
-  color: #777;
-}
-
-.dark-preview div.btn-container i.fa-moon-o{
-  color: #fff;
-  text-shadow: 0px 0px 11px #fff;
-}
-
-.white-preview{
-  background: #fff;
-}
-
-.white-preview div.btn-container i.fa-sun-o{
-  color: #ffa500;
-  text-shadow: 0px 0px 16px #ffa500;
-}
-
-.white-preview div.btn-container i.fa-moon-o{
-  color: #777;
-}
