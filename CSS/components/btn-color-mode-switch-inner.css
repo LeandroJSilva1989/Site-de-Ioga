@@ -45,7 +45,7 @@
 
 
 
-/*  
+
 .btn-container{
     display: table-cell;
     vertical-align: middle;
@@ -121,4 +121,4 @@
     content: attr(data-off);
     right: auto;
     left: 20px;
-} */
+} 
