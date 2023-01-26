@@ -1,13 +1,12 @@
 /*.main-toggle:checked body {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
-}
-
- body, .main-skills.main-experts:has(.main-toggle:checked) { 
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
-  
-
 }*/
 
-.dark-preview {
+ body:has(#dark-preview:checked) { 
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
+  
 }
+
+/*#dark-preview:checked {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark.jpg);
+}*/
