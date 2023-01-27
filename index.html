@@ -26,9 +26,11 @@
     <link rel="stylesheet" href="https://leandrojsilva1989.github.io/Site-de-Ioga/CSS/components/btn-depositions-carousel.css">
     <link rel="stylesheet" href="https://leandrojsilva1989.github.io/Site-de-Ioga/CSS/components/main-footer.css">
     <link rel="stylesheet" href="https://leandrojsilva1989.github.io/Site-de-Ioga/CSS/components/dark-mode.css">
+
+    <script src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/Script/components/change-theme.js"></script>
 </head>
 
-<body  id="whiteMode" class="whiteStyle">
+<body>
     <header class="main-header">
         <a href="#" class="logo-header" >
             <img class="logo" src="https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/logo-website.png" 
@@ -63,9 +65,10 @@
                 <button class="button-search" onclick="searchTeacher()">Search Now</button>
             </div>
 
+            <p  style="display:none" id= "text">jfjfjfjfjf</p>
 
-            <input  onchange="myFunction()" type="checkbox"  name="dark-preview"  id="dark-preview" value="" class="btn-color-mode-switch-inner"> 
-            <label for="dark-preview" data-on="Dark" data-off="Light" ></label>
+            <input type="checkbox"  name="darkPreview"  id="myCheck" onclick="changeTheme(this)" class="btn-color-mode-switch-inner"> 
+            <label for="myCheck"></label>
            
         </div>
 
@@ -325,7 +328,7 @@
         </nav>
     </footer>
 
-    <script src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/Script/components/change-theme.js"></script>
+    
 
 </body>
 

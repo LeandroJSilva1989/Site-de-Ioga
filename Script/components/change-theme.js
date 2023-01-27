@@ -1,18 +1,26 @@
-/*document.getElementById('dark-preview').checked;
+/*var dark = document.getElementById("dark");
+var text = document.getElementById("text");
 
-function changeTheme() {
-    var darkMode = document.getElementById('dark-preview').checked;
+      dark.addEventListener( "change", () => {
+         if ( dark.checked === true) {
+            text.innerHTML = " Check box is checked. ";
+         } else {
+            text.innerHTML = "";
+         }
+      });
+*/
 
-    if(darkMode.checked) {
-        document.getElementsByClassName('').classList.toggle("dark");
-    }
-}*/
 
-function myFunction() {
-    const element = document.getElementById("whiteMode");
-    if (element.className == "whiteStyle" {
-        element.className = "dark";
-    } else {
-      element.className = "whiteStyle";
-    }
-  }
+      function changeTheme(get) {
+        // Get the checkbox
+        var checkBox = document.getElementById("myCheck");
+        // Get the output text
+        var text = document.getElementById("text");
+      
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked === true){
+            get.text.style.display = "block";
+        } else {
+          get.text.style.display = "none";
+        }
+      }
