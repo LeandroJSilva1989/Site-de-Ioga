@@ -11,7 +11,7 @@ var text = document.getElementById("text");
 */
 
 
-      function changeTheme(get) {
+      function changeTheme() {
         // Get the checkbox
         var checkBox = document.getElementById("myCheck");
         // Get the output text
@@ -19,8 +19,8 @@ var text = document.getElementById("text");
       
         // If the checkbox is checked, display the output text
         if (checkBox.checked === true){
-            get.text.style.display = "block";
+            text.style.display = "block";
         } else {
-          get.text.style.display = "none";
+          text.style.display = "none";
         }
       }
