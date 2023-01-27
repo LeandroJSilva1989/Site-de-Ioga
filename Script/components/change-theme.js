@@ -10,8 +10,8 @@ function changeTheme() {
 
 function myFunction() {
     const element = document.getElementById("whiteMode");
-    if (element.className == "whiteStyle") {
-      element.className = "dark";
+    if (element.className == "whiteStyle" {
+      element.toggle.classList("dark");
     } else {
       element.className = "whiteStyle";
     }
