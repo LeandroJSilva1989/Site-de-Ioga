@@ -11,7 +11,7 @@ function changeTheme() {
 function myFunction() {
     const element = document.getElementById("whiteMode");
     if (element.className == "whiteStyle" {
-      element.toggle.classList("dark");
+        element.className = "dark";
     } else {
       element.className = "whiteStyle";
     }
