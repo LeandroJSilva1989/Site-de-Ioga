@@ -11,12 +11,12 @@
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-body.jpg);
 }
 
-.dark .main-header .menu-navigation ul .main-action{
+.dark .main-header .menu-navigation ul .main-action {
   color:  #FFFFFF;
 }
 
 .dark .menu-list {
-  color:  #FFFFFF;
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/list-dark.jpg);
 }
 
 .dark .main-banner .wrapper .main-box .main-title {
