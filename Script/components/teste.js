@@ -1,4 +1,4 @@
- // Get the checkbox
+ /*// Get the checkbox
  var checkBox = document.getElementById("myCheck");
  // Get the output text
  var text = document.getElementById("text");
@@ -18,3 +18,4 @@ function changeTheme(Click) {
 function mudaTema() {
    document.body.classList.toggle("dark");
  }
+*/

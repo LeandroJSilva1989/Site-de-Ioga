@@ -1,5 +1,6 @@
-/*var dark = document.getElementById("dark");
-var text = document.getElementById("text");
+         
+     /* var dark = document.getElementById("dark");
+      var text = document.getElementById("text");
 
       dark.addEventListener( "change", () => {
          if ( dark.checked === true) {
@@ -8,7 +9,7 @@ var text = document.getElementById("text");
             text.innerHTML = "";
          }
       });
-*/
+
 
        // Get the checkbox
        var checkBox = document.getElementById("myCheck");
@@ -29,4 +30,10 @@ var text = document.getElementById("text");
 
       function mudaTema() {
          document.body.classList.toggle("dark");
-       }
+       }*/
+
+
+       function changeTheme() {
+         var element = document.getElementById("darkBg");
+         element.classList.toggle("dark");
+      }

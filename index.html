@@ -30,7 +30,7 @@
    
 </head>
 
-<body>
+<body id="darkBg">
     <header class="main-header">
         <a href="#" class="logo-header" >
             <img class="logo" src="https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/logo-website.png" 
@@ -39,7 +39,7 @@
 
         <nav class="menu-navigation">
             <ul>
-                <li><a class="main-action" href="" lang="en">Home</a></li>
+                <li><a class="main-action" class="dark" href="" lang="en">Home</a></li>
                 <li><a class="main-action" href="" lang="en">Services</a></li>
                 <li><a class="main-action" href="" lang="en">Blogs</a></li>
                 <li><a class="main-action" href="" lang="en">Contact</a></li>
@@ -64,10 +64,6 @@
 
                 <button class="button-search" onclick="searchTeacher()">Search Now</button>
             </div>
-
-            <p  style="display:none" id= "text">jfjfjfjfjf</p>
-
-            <button onclick="mudaTema()">Alterar Tema</button>
 
             <input type="checkbox"  name="darkPreview"  id="myCheck" onclick="changeTheme()" value="Click" class="btn-color-mode-switch-inner"> 
             <label for="myCheck"></label>
@@ -332,9 +328,8 @@
         </nav>
     </footer>
 
-    <script src="Script/components/teste.js"></script>
-    <script src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/Script/components/change-theme.js"></script>
-
+    <script src="Script/components/change-theme.js"></script>
+    
 </body>
 
 </html>
