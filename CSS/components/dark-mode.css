@@ -12,5 +12,13 @@
 }
 
 .dark .main-header .menu-navigation ul .main-action{
-  background-color: aqua;
+  color:  #FFFFFF;
+}
+
+.dark .menu-list {
+  color:  #FFFFFF;
+}
+
+.dark .main-banner .wrapper .main-box .main-title {
+  color: #FFFFFF;
 }
