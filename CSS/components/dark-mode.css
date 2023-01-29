@@ -32,3 +32,17 @@
   color: #FFFFFF;
 }
 
+.dark .main-banner .wrapper .btn-color-mode-switch-inner + label {
+  width:  29px;
+  height: 12px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  padding: 2px;
+  transition: 200ms;
+  cursor: pointer;
+  margin-top: 88px;
+  transform: rotate(90deg) translateX(-62%);
+  margin-left: 50%;
+  border: solid rgba(255, 20, 72, 0.3);
+}
