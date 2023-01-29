@@ -37,6 +37,7 @@
   height: 12px;
   display: block;
   position: relative;
+  background: none;
   border-radius: 20px;
   padding: 2px;
   transition: 200ms;
