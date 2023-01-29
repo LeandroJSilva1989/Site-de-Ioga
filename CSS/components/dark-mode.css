@@ -15,7 +15,7 @@
   color:  #FFFFFF;
 }
 
-.dark .main-header .menu-list .menu-dark source {
+.dark .main-header .menu-list .menu-dark::content  {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/list-dark.png);
 }
 
