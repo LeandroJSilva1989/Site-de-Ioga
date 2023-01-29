@@ -56,14 +56,17 @@
   color: #FFFFFF;
 } 
 
-.dark .wrapper-card figure .main-subtitle__skills {
+.dark .wrapper-card figure {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-figure-skills.jpg);
+  color: #FFFFFF;
+  background-size: cover;
+}
+
+
+.dark .find-tutor .-second {
   color: #FFFFFF;
 }
 
-.dark .wrapper-card figure {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-figure-skills.jpg);
-}
-
-.dark .wrapper-card figure .dark-wrapper-card {
+.dark .wrapper-tutor figure .main-subtitle__find-tutor {
   color: #FFFFFF;
 }
