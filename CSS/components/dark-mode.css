@@ -51,3 +51,19 @@
 .dark .main-skills {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-skills.jpg);
 }
+
+.dark .main-skills .-second {
+  color: #FFFFFF;
+} 
+
+.dark .wrapper-card figure .main-subtitle__skills {
+  color: #FFFFFF;
+}
+
+.dark .wrapper-card figure {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-figure-skills.jpg);
+}
+
+.dark .wrapper-card figure .dark-wrapper-card {
+  color: #FFFFFF;
+}
