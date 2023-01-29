@@ -70,3 +70,19 @@
 .dark .wrapper-tutor figure .main-subtitle__find-tutor {
   color: #FFFFFF;
 }
+
+.dark .main-experts {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-find-tutor.jpg), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-tutor.jpg);
+  
+}
+
+.dark .maiin-experts .learn-experts {
+  color: #FFFFFF;
+}
+
+.dark .maiin-experts figure {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-find-tutor.jpg);
+  color: #FFFFFF;
+  background-size: cover;
+}
+
