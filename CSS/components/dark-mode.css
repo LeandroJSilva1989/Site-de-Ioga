@@ -73,16 +73,24 @@
 
 .dark .main-experts {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-find-tutor.jpg), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-tutor.jpg);
-  
+  background-blend-mode: multiply;
 }
 
-.dark .maiin-experts .learn-experts {
+.dark .main-experts .learn-experts {
   color: #FFFFFF;
 }
 
-.dark .maiin-experts figure {
+.dark .main-experts figure {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-find-tutor.jpg);
   color: #FFFFFF;
   background-size: cover;
 }
 
+.dark .main-experts .button-find {
+  background-color: #FF1448;
+  color: #FFFFFF;
+}
+
+.dark .main-experts .wrapper-card__experts figure .read-more {
+  color: #FFFFFF;
+}
