@@ -28,8 +28,6 @@
 .content-depositions {
   display: flex;
   flex-wrap: wrap;
-  padding: 18px;
-  background-color: #ffffff;
 }
 
 .content-depositions img {
