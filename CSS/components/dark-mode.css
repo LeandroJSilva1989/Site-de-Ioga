@@ -94,3 +94,21 @@
 .dark .main-experts .wrapper-card__experts figure .read-more {
   color: #FFFFFF;
 }
+
+.dark .depositions-content .title-depositions {
+  color: #FFFFFF;
+}
+
+.dark .depositions-carousel .dark-depositions {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-figure-depositions.jpg);
+  color: #FFFFFF;
+  background-size: cover;
+}
+
+.dark .follow a {
+  color: #FFFFFF;
+}
+
+.main-footer .nav-footer ul li a {
+  color: #FFFFFF;
+}

@@ -32,6 +32,10 @@
   background-color: #ffffff;
 }
 
+.content-depositions img {
+  border-radius: 50%;
+}
+
 .depositions-options {
   display: flex;
   align-self: self-end;
