@@ -34,34 +34,19 @@
   border-radius: 50%;
 }
 
-.depositions-options {
+.wrapper-depositions {
   display: flex;
-  align-self: self-end;
-  position: absolute;
-  gap: 16px;
+  overflow: hidden;
+  width: 66em;
 }
 
-.depositions-options a {
-  display: flex;
-}
-
-.depositions-options span {
-  content: "";
-  width: 24px;
-  height: 5px;
-  border-radius: 2px;
-  background-color: #E2E4E8;
-}
-
-.depositions-options .span-active {
-  background-color: #258AFF;
-}
 
 .depositions-carousel {
   height: 392px;
   display: flex;
-  gap: 10px;
+  gap: 4.875rem;
   justify-content: space-between;
+  transition: all 1s ease-in-out;
 }
 
 .depositions-carousel__left {
@@ -110,5 +95,64 @@
   line-height: 32px;
   color: #1D293F;
 }
+
+.depositions-options {
+  display: flex;
+  align-self: self-end;
+  position: absolute;
+  gap: 16px;
+}
+
+.depositions-options button {
+ cursor: pointer;
+ margin: 0 0.125em;
+ position: relative;
+ user-select: none;
+ content: "";
+ width: 24px;
+ height: 5px;
+ border-radius: 2px;
+ background-color: #E2E4E8;
+ border: none;
+}
+
+.depositions-options button.active {
+  background-color: #258AFF;
+}
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+/*  
+.depositions-options a {
+  display: flex;
+}
+
+.depositions-options span {
+  content: "";
+  width: 24px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #E2E4E8;
+}
+
+.depositions-options .span-active {
+  background-color: #258AFF;
+}*/
+
+
+
+
+
+
 
 
