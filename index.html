@@ -241,14 +241,14 @@
             <h2 class="title-depositions ">Your friends won’t lie.</h2>
 
             <div class="depositions-buttons">
-                <button type="button" class="btn-arrow btn-arrow-left" id="previewDepositions">Preview</button>
+                <button type="button" onclick="plusSlides(-1)"  class="btn-arrow btn-arrow-left" id="previewDepositions">Preview</button>
 
-                <button type="button"  class="btn-arrow btn-arrow-right" id="nextDepositions">Next</button>
+                <button type="button" onclick="plusSlides(1)" class="btn-arrow btn-arrow-right" id="nextDepositions">Next</button>
             </div>
 
             <div class="wrapper-depositions">
                 <div class="depositions-carousel elements">
-                    <div class="depositions-carousel__left dark-depositions" >
+                    <div class="depositions-carousel-slide dark-depositions" >
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-01.jpg"
                             alt="Photo-depositions-01">
@@ -258,9 +258,7 @@
                             </p>
                             <a href="#">@silverfrog195</a>
                         </figure>
-                    </div>
-           
-                    <div class="depositions-carousel__midle dark-depositions">
+
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-02.jpg"
                             alt="Photo-depositions-01">
@@ -270,9 +268,7 @@
                             </p>
                             <a href="#">@purpleleopard757</a>
                         </figure>
-                    </div>
 
-                    <div class="depositions-carousel__rigth dark-depositions">
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-03.jpg"
                             alt="Photo-depositions-01">
@@ -283,20 +279,20 @@
                             <a href="#">@ticklishostrich764</a>
                         </figure>
                     </div>
+                </div>
 
-                    <div class="depositions-carousel__left dark-depositions" >
+                <div class="depositions-carousel elements">
+                    <div class="depositions-carousel-slide dark-depositions" >
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-01.jpg"
-                                alt="Photo-depositions-01">
+                            alt="Photo-depositions-01">
 
                             <p class="description-depositions">
                                 I owe these guys my life. Already using their services for my latest two projects.
                             </p>
                             <a href="#">@silverfrog195</a>
                         </figure>
-                    </div>
-           
-                    <div class="depositions-carousel__midle dark-depositions">
+
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-02.jpg"
                             alt="Photo-depositions-01">
@@ -306,9 +302,7 @@
                             </p>
                             <a href="#">@purpleleopard757</a>
                         </figure>
-                    </div>
 
-                    <div class="depositions-carousel__rigth dark-depositions">
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-03.jpg"
                             alt="Photo-depositions-01">
@@ -319,32 +313,30 @@
                             <a href="#">@ticklishostrich764</a>
                         </figure>
                     </div>
+                </div>
 
-                    <div class="depositions-carousel__left dark-depositions" >
+                <div class="depositions-carousel elements">
+                    <div class="depositions-carousel-slide dark-depositions" >
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-01.jpg"
-                                alt="Photo-depositions-01">
+                            alt="Photo-depositions-01">
 
                             <p class="description-depositions">
                                 I owe these guys my life. Already using their services for my latest two projects.
                             </p>
                             <a href="#">@silverfrog195</a>
                         </figure>
-                    </div>
-           
-                    <div class="depositions-carousel__midle dark-depositions">
+
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-02.jpg"
                             alt="Photo-depositions-01">
 
                             <p class="description-depositions">
-                            I owe these guys my life. Already using their services for my latest two projects.
+                                I owe these guys my life. Already using their services for my latest two projects.
                             </p>
                             <a href="#">@purpleleopard757</a>
                         </figure>
-                    </div>
 
-                    <div class="depositions-carousel__rigth dark-depositions">
                         <figure class="content-depositions follow">
                             <img src="https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/photo-depositions-03.jpg"
                             alt="Photo-depositions-01">
@@ -358,9 +350,9 @@
                 </div>
 
                 <div class="depositions-options">
-                    <button class="active first"></button>
-                    <button class="second"></button>
-                    <button class="third"></button>
+                    <button onclick="currentSlide(1)" class="dot active first"></button>
+                    <button onclick="currentSlide(2)" class="dot second"></button>
+                    <button onclick="currentSlide(3)" class="dot third"></button>
                 </div>
 
             </div>
