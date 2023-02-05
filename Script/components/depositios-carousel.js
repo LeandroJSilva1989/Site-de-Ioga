@@ -31,7 +31,7 @@ buttonsWrapper.addEventListener("click", e => {
       slides.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second")) {
-      slides.style.transform = "translateX(-19.9%)";
+      slides.style.transform = "translateX(-22.4%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains('third')){
       slides.style.transform = 'translatex(-39.8%)';

@@ -44,15 +44,10 @@
 .depositions-carousel {
   height: 392px;
   display: flex;
-  gap: 4.875rem;
   justify-content: space-between;
   transition: all 1s ease-in-out;
 }
 
-.depositions-carousel-slide {
-  display:flex;
-  gap: 4.875rem;
-}
 
 .depositions-carousel-slide {
   width: 300px;
@@ -63,6 +58,8 @@
   padding: 28px;
   line-height: 28px;
   box-sizing: border-box;
+  display:flex;
+  margin-left: 39px;
 }
 
 
