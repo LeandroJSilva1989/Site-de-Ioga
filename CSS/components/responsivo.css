@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .main-header {
+      display: none;
+    }
+
+    .main-banner {
+      display: none;
+    }
+
+    .main-skills {
+      display: none;
+    }
+
+    .find-tutor {
+      display: none;
+    }
+
+    .main-experts {
+      display: none;
+    }
+
+    .main-depositions {
+      display: none;
+    }
+
+    .main-footer {
+      display: none;
+    }
+    
+}
