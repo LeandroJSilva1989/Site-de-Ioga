@@ -1,7 +1,7 @@
 const btnRight = window.document.querySelector(".btn-arrow-right");
  const btnLeft = window.document.querySelector(".btn-arrow-left");
  const elements = window.document.querySelector(".elements");
- let pixels = 597;
+ let pixels = 0;
 
  
 
