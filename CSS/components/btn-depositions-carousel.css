@@ -15,7 +15,7 @@
     bottom: 138px;
     margin-left: auto;
     width: fit-content;
-
+    right: 9em;
 }
 
 .btn-arrow::before, .btn-arrow::after {

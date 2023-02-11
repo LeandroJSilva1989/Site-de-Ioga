@@ -37,9 +37,7 @@
 .wrapper-depositions {
   display: flex;
   overflow: hidden;
-  width: 66em;
-  gap: 39px;
-  justify-content: center;
+  width: 62em;
 }
 
 

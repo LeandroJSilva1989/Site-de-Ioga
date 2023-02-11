@@ -6,13 +6,13 @@ const btnRight = window.document.querySelector(".btn-arrow-right");
  
 
  btnRight.addEventListener("click", function() {
-   pixels = pixels - 597;
+   pixels = pixels - 675;
    elements.style = `transform: translateX(${pixels}px)`;
    
  });
 
  btnLeft.addEventListener("click", function() {
-   pixels = pixels + 597;
+   pixels = pixels + 675;
    elements.style = `transform: translateX(${pixels}px)`;
 });
 
