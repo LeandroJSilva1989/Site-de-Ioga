@@ -37,7 +37,7 @@ buttonsWrapper.addEventListener("click", e => {
       slides.style.transform = "translateX(-22.3%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains('third')){
-      slides.style.transform = 'translatex(-39.8%)';
+      slides.style.transform = 'translatex(-44.6%)';
       e.target.classList.add('active');
       document.getElementById("nextDepositions").disable = true;
     } 
