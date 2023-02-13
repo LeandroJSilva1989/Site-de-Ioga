@@ -28,3 +28,77 @@
     }
     
 }
+
+@media screen and (min-width: 1100px) {
+
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 47px 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-banner .wrapper {
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right, 13rem 10%, 0% 95%;
+    background-size: 50% auto;
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .main-box {
+    margin-top: 99px;
+    margin-bottom: 49px;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: initial;
+    display: block;
+    width: 502px;
+    height: 255px;
+  }
+
+  .wrapper-card {
+    gap: 31px;
+    margin-top: 46px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .main-skills {
+    display: block;
+    padding: 2.9375rem 50px 0;
+    height: 571px;
+    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
+    padding-bottom: 4.625rem;
+  }
+
+  .depositions-content {
+    height: 840px;
+    align-content: flex-end;
+    display: grid;
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
+    background-repeat: no-repeat;
+    background-position: top left, 699px 213px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .depositions-buttons {
+    display: flex;
+    position: relative;
+    bottom: 138px;
+    margin-left: auto;
+    width: fit-content;
+    right: 1em;
+  }
+
+  .wrapper-depositions {
+    display: flex;
+    overflow: hidden;
+    width: 59em;
+  }
+}
