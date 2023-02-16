@@ -29,7 +29,7 @@
     
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
 
   .main-header {
     display: flex;
@@ -37,6 +37,7 @@
     padding: 47px 100px 0;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
   }
 
   .main-banner .wrapper {
@@ -47,6 +48,7 @@
     display: grid;
     margin-left: 50px;
     margin-right: 50px;
+    width: auto;
   }
 
   .main-box {
@@ -66,6 +68,8 @@
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    width: auto;
+    flex-wrap: nowrap;
   }
 
   .main-skills {
@@ -85,6 +89,7 @@
     background-position: top left, 699px 213px;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
   }
 
   .depositions-buttons {
