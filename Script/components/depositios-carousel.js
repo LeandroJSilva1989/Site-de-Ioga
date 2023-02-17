@@ -32,14 +32,14 @@ buttonsWrapper.addEventListener("click", e => {
     if (e.target.classList.contains("first")) {
       slides.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
-      document.getElementById("previewDepositions").disable = true;
+      updateButtons();
     } else if (e.target.classList.contains("second")) {
       slides.style.transform = "translateX(-22.3%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains('third')){
       slides.style.transform = 'translatex(-44.6%)';
       e.target.classList.add('active');
-      document.getElementById("nextDepositions").disable = true;
+      
     } 
   }
 });
@@ -54,6 +54,11 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
+
+function updateButtons() {
+  prevButton.disabled = pixels=== 0;
+  nextButton.disabled = pixels === slides.children.length - 1;
 }
 
 function showSlides(n) {
