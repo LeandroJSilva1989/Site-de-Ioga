@@ -44,10 +44,12 @@
    background: transparent;
 }
 
+/*  
 .btn-arrow:hover::before, .btn-arrow:hover::after, .btn-arrow:focus::before, .btn-arrow:focus::after {
     background-color: #258AFF;
     
 }
+*/
 
 .btn-arrow.btn-arrow-left::before, .btn-arrow.btn-arrow-left::after, .btn-arrow.btn-arrow-right::before, .btn-arrow.btn-arrow-right::after {
     top: 12.5%;
