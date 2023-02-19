@@ -1,7 +1,9 @@
-const btnRight = window.document.querySelector(".btn-arrow-right");
- const btnLeft = window.document.querySelector(".btn-arrow-left");
- const elements = window.document.querySelector(".elements");
+
+const btnRight = document.querySelector(".btn-arrow-right");
+ const btnLeft = document.querySelector(".btn-arrow-left");
+ const elements = document.querySelector(".elements");
  let pixels = 0;
+
 
  
 
@@ -17,9 +19,10 @@ const btnRight = window.document.querySelector(".btn-arrow-right");
 });
 
 
-
 const buttonsWrapper = document.querySelector(".depositions-options");
 const slides = document.querySelector(".depositions-carousel");
+
+
 
 buttonsWrapper.addEventListener("click", e => {
   
@@ -32,7 +35,6 @@ buttonsWrapper.addEventListener("click", e => {
     if (e.target.classList.contains("first")) {
       slides.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
-      updateButtons();
     } else if (e.target.classList.contains("second")) {
       slides.style.transform = "translateX(-22.3%)";
       e.target.classList.add("active");
@@ -41,6 +43,7 @@ buttonsWrapper.addEventListener("click", e => {
       e.target.classList.add('active');
       
     } 
+
   }
 });
 
@@ -54,11 +57,6 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
-
-function updateButtons() {
-  prevButton.disabled = pixels=== 0;
-  nextButton.disabled = pixels === slides.children.length - 1;
 }
 
 function showSlides(n) {
@@ -77,4 +75,44 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-  
+// recupera os elementos HTML relevantes
+const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
+const prevButton = document.getElementById('previewDepositions');
+const nextButton = document.getElementById('nextDepositions');
+
+// define o índice inicial do carrossel
+let currentSlideIndex = 0;
+
+// adiciona um manipulador de eventos "click" para cada botão
+prevButton.addEventListener('click', handlePrevButtonClick);
+nextButton.addEventListener('click', handleNextButtonClick);
+
+// define a função para desativar o botão "preview" quando estiver no início e o botão "next" quando estiver no final
+function handlePrevButtonClick() {
+  currentSlideIndex--;
+  updateButtonStates();
+}
+
+function handleNextButtonClick() {
+  currentSlideIndex++;
+  updateButtonStates();
+}
+
+function updateButtonStates() {
+  if (currentSlideIndex <= 0) {
+    // o carrossel está no início, desativa o botão "preview"
+    prevButton.disabled = true;
+  } else {
+    // o carrossel não está no início, ativa o botão "preview"
+    prevButton.disabled = false;
+  }
+
+  if (currentSlideIndex >= carousel.children.length - 1) {
+    // o carrossel está no final, desativa o botão "next"
+    nextButton.disabled = true;
+  } else {
+    // o carrossel não está no final, ativa o botão "next"
+    nextButton.disabled = false;
+  }
+}
+

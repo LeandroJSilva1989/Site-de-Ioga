@@ -5,6 +5,12 @@
   flex-wrap: wrap;
 }
 
+.deposition-slides {
+  display: flex;
+  gap: 39px;
+}
+
+
 .depositions-content {
   height: 840px;
   align-content: flex-end;
