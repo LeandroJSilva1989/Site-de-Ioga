@@ -7,6 +7,7 @@
     transition: all 150ms ease-out;
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 
 .depositions-buttons {
@@ -41,6 +42,7 @@
     width: 75%;
     height: 17%;
     border-radius: 10px;
+    background-color: #258AFF;
   
 }
 
@@ -48,23 +50,21 @@
     width: 17%;
     height: 75%;
     border-radius: 10px;
+    background-color: #258AFF;
    
 }
 
-/*  
+/* 
 .btn-arrow:hover, .btn-arrow:focus {
    cursor: pointer;
    
 }
-*/
-
-
-
 
 .btn-arrow:hover::before, .btn-arrow:hover::after, .btn-arrow:focus::before, .btn-arrow:focus::after {
     background-color: #258AFF;
     cursor: pointer;
 }
+ */
 
 
 .btn-arrow.btn-arrow-left::before, .btn-arrow.btn-arrow-left::after, .btn-arrow.btn-arrow-right::before, .btn-arrow.btn-arrow-right::after {
