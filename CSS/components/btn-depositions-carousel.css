@@ -18,14 +18,14 @@
     width: fit-content;
 }
 
-.btn-arrow-left:disabled::after, .btn-arrow-left:disabled::before {
+.btn-arrow-left:disabled::after, .btn-arrow-left:disabled::before, .btn-arrow-rigth:disabled::after, .btn-arrow-rigth:disabled::before {
     background-color: #E2E4E8;
     cursor: default;
 }
 
-.btn-arrow-rigth:disabled::after, .btn-arrow-rigth:disabled::before {
-    background-color: #E2E4E8;
-    cursor: default;
+
+.btn-arrow:disabled {
+    cursor:default;
 }
 
 .btn-arrow::before, .btn-arrow::after {
