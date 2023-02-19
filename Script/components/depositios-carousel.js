@@ -79,11 +79,11 @@ function showSlides(n) {
 const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
 const prevButton = document.getElementById('previewDepositions');
 const nextButton = document.getElementById('nextDepositions');
-const btnArrowRigth = document.querySelector('.btn-arrow-right');
-const btnArrowLeft = document.querySelector('.btn-arrow-left');
+
 
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
+updateButtonStates();
 
 // adiciona um manipulador de eventos "click" para cada botão
 prevButton.addEventListener('click', handlePrevButtonClick);
@@ -107,7 +107,7 @@ function updateButtonStates() {
   } else {
     // o carrossel não está no início, ativa o botão "preview"
     prevButton.disabled = false;
-    btnArrowRigth.style.color = "#258AFF";
+    
   }
 
   if (currentSlideIndex >= carousel.children.length - 1) {
