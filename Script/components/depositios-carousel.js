@@ -8,14 +8,14 @@ const btnRight = document.querySelector(".btn-arrow-right");
  
 
  btnRight.addEventListener("click", function() {
-   pixels = pixels - 675;
-   elements.style = `transform: translateX(${pixels}px)`;
+   pixels = pixels - 22.3;
+   elements.style = `transform: translateX(${pixels}%)`;
    
  });
 
  btnLeft.addEventListener("click", function() {
-   pixels = pixels + 675;
-   elements.style = `transform: translateX(${pixels}px)`;
+   pixels = pixels + 22.3;
+   elements.style = `transform: translateX(${pixels}%)`;
 });
 
 
