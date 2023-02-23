@@ -29,7 +29,7 @@
     
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
 
   .main-header {
     display: flex;
@@ -44,7 +44,6 @@
     background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right, 13rem 10%, 0% 95%;
-    background-size: 50% auto;
     display: grid;
     margin-left: 50px;
     margin-right: 50px;
