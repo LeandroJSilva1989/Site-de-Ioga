@@ -29,7 +29,7 @@
     
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1025px) {
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
 
   .main-header {
     display: flex;
