@@ -1,32 +1,82 @@
-@media screen and (min-width: 320px) and (max-width: 900px) {
-    .main-header {
-      display: none;
-    }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 47px 0 0;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    .main-banner {
-      display: none;
-    }
+  .main-banner .wrapper {
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background-repeat: no-repeat;
+    background-position: 89% 3%;
+    display: flow-root;
+    background-size: 46%;
+    padding-left: 40px;
+  }
 
-    .main-skills {
-      display: none;
-    }
+  .main-box {
+    margin-top: 52px;
+    margin-bottom: 64px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: initial;
+    display: block;
+    width: 502px;
+    height: 191px;
+  }
 
-    .find-tutor {
-      display: none;
-    }
+  .main-banner .new-search input {
+    border-radius: 8px;
+    padding: 8px 13px;
+    outline: 0;
+    font-style: italic;
+    width: 25%;
+  }
 
-    .main-experts {
-      display: none;
-    }
+  .main-banner .new-search .button-search {
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: #FF1448;
+    background-color: rgba(255, 174, 192, 19%);
+    width: 119px;
+    height: 44px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
 
-    .main-depositions {
-      display: none;
-    }
+  .wrapper-card {
+    gap: 31px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 
-    .main-footer {
-      display: none;
-    }
-    
+  .main-skills {
+    display: block;
+    height: auto;
+  }
+
+
+
+  .find-tutor {
+    display: none;
+  }
+
+  .main-experts {
+    display: none;
+  }
+
+  .main-depositions {
+    display: none;
+  }
+
+  .main-footer {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
