@@ -5,6 +5,7 @@
     padding: 47px 0 0;
     margin-left: 50px;
     margin-right: 50px;
+    width: auto;
   }
 
   .main-banner .wrapper {
@@ -14,6 +15,7 @@
     display: flow-root;
     background-size: 46%;
     padding-left: 40px;
+    width: auto;
   }
 
   .main-box {
@@ -52,6 +54,7 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+    width: auto;
   }
 
   .main-skills {
