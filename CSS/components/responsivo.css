@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   .main-header {
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
   .main-box {
     margin-top: 52px;
     margin-bottom: 64px;
-    font-size: 34px;
+    font-size: 2.125rem;
     font-weight: 700;
     line-height: initial;
     display: block;
@@ -82,7 +82,7 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
 
   .main-header {
     display: flex;
