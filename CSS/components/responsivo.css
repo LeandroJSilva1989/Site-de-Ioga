@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 999px) {
+@media screen and (min-width: 650px) and (max-width: 999px) {
   .main-header {
     display: flex;
     align-items: center;
@@ -62,11 +62,26 @@
     height: auto;
   }
 
-
-
-  .find-tutor {
-    display: none;
+  .wrapper-tutor {
+    display: flex;
+    height: 800px;
+    position: relative;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 124px;
+    justify-content: center;
   }
+
+  .wrapper-tutor .post-requirement .demo-schedule .search-select .improve-skills {
+    display: inline-block;
+    width: 192px;
+    height: fit-content;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
 
   .main-experts {
     display: none;
