@@ -73,16 +73,33 @@
     background-image: none;
   }
 
-  .wrapper-tutor figure {
-    display: inline-block;
-    width: 192px;
-    height: fit-content;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 500;
+  .wrapper-tutor .post-requirement {
+    position: unset;
   }
 
+  .wrapper-tutor .demo-schedule {
+    position: unset;
+  }
+
+  .wrapper-tutor .search-select {
+    position: unset;
+  }
+
+  .wrapper-tutor .improve-skills {
+    position: unset;
+  }
+
+  .wrapper-tutor .post-requirement .linha-wrapper__tutor {
+    display: none;
+  }
+
+  .wrapper-tutor .post-requirement .linha-wrapper__tutor__02 {
+    display: none;
+  }
+
+  .wrapper-tutor .post-requirement .linha-wrapper__tutor__03 {
+    display: none;
+  }
 
   .find-tutor {
     background-image: none;
