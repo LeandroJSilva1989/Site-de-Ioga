@@ -73,7 +73,7 @@
     background-image: none;
   }
 
-  .wrapper-tutor .figure {
+  .wrapper-tutor figure {
     display: inline-block;
     width: 192px;
     height: fit-content;
