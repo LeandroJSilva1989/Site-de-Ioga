@@ -73,6 +73,42 @@
     background-image: none;
   }
 
+
+  
+  .main-experts {
+   height: auto;
+  }
+
+  .main-experts .learn-experts {
+    position: unset;
+    transform: none;
+    background-image: none;
+    height: auto;
+    background-repeat: no-repeat;
+    display: block;
+    max-width: min-content;
+    background-position: unset;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+  }
+
+  .main-experts .wrapper-card__experts {
+    display: flex;
+    margin-top: 96px;
+    flex-wrap: wrap;
+    width: 567px;
+    height: 910px;
+    margin-right: auto;
+    margin-left: 2.6875rem;
+    gap: 31px;
+  }
+
+
+
+
+
+
   .wrapper-tutor .post-requirement {
     position: unset;
   }
@@ -106,9 +142,6 @@
 
   }
 
-  .main-experts {
-    display: none;
-  }
 
   .main-depositions {
     display: none;
