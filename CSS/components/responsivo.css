@@ -76,8 +76,8 @@
 
   
   .main-experts {
-   height: auto;
-   display: block;
+    height: 1643px;
+    display: block;
   }
 
   .main-experts .learn-experts {
@@ -98,7 +98,7 @@
     margin-top: 96px;
     flex-wrap: wrap;
     width: 567px;
-    height: 1230px;
+    height: auto;
     margin-right: auto;
     margin-left: 2.6875rem;
     gap: 31px;
