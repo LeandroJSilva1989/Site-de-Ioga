@@ -84,13 +84,13 @@
     position: unset;
     transform: none;
     background-image: none;
-    height: auto;
+    height: unset;
     display: flex;
     max-width: min-content;
     background-position: unset;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20%;
+    padding-top: 103px;
   }
 
   .main-experts .wrapper-card__experts {
