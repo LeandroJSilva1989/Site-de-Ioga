@@ -85,8 +85,7 @@
     transform: none;
     background-image: none;
     height: auto;
-    background-repeat: no-repeat;
-    display: block;
+    display: flex;
     max-width: min-content;
     background-position: unset;
     margin-right: auto;
@@ -99,10 +98,15 @@
     margin-top: 96px;
     flex-wrap: wrap;
     width: 567px;
-    height: 910px;
+    height: 1230px;
     margin-right: auto;
     margin-left: 2.6875rem;
     gap: 31px;
+  }
+
+  .find-tutor {
+    background-image: none;
+    height: 1042px;
   }
 
 
@@ -138,10 +142,7 @@
     display: none;
   }
 
-  .find-tutor {
-    background-image: none;
 
-  }
 
 
   .main-depositions {
