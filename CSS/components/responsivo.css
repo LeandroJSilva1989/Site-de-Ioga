@@ -144,6 +144,11 @@
     position: unset;
   }
 
+  .wrapper-depositions {
+    width: auto;
+  }
+
+
   .wrapper-tutor .search-select {
     position: unset;
   }
