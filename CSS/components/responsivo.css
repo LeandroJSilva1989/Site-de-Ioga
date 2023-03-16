@@ -109,11 +109,20 @@
     height: 1042px;
   }
 
+  .depositions-buttons {
+    bottom: 88px;
+    padding-right: 27px;
+  }
 
+  .depositions-carousel {
+    gap: unset;
+  }
 
-
-
-
+  .deposition-slides {
+    gap: 25px;
+    margin-left: 25px;
+  }
+  
   .wrapper-tutor .post-requirement {
     position: unset;
   }
@@ -142,12 +151,6 @@
     display: none;
   }
 
-
-
-
-  .main-depositions {
-    display: none;
-  }
 
   .main-footer {
     display: none;
