@@ -109,6 +109,15 @@
     height: 1042px;
   }
 
+  .title-depositions {
+    margin-left: 25px;
+  }
+
+  .depositions-content {
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-position: 25px top;
+  }
+
   .depositions-buttons {
     bottom: 88px;
     padding-right: 27px;
@@ -122,7 +131,11 @@
     gap: 25px;
     margin-left: 25px;
   }
-  
+
+  .depositions-options {
+    margin-left: 25px;
+  }
+
   .wrapper-tutor .post-requirement {
     position: unset;
   }
