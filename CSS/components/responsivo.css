@@ -1,4 +1,373 @@
-@media screen and (min-width: 650px) and (max-width: 1022px) {
+@media screen and (min-width: 650px) and (max-width: 767px) {
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 47px 0 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+  }
+
+  .main-banner .wrapper {
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background-repeat: no-repeat;
+    background-position: 89% 3%;
+    display: flow-root;
+    background-size: 46%;
+    padding-left: 40px;
+    width: auto;
+  }
+
+  .main-box {
+    margin-top: 52px;
+    margin-bottom: 64px;
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: initial;
+    display: block;
+    width: 502px;
+    height: 191px;
+  }
+
+  .main-banner .new-search input {
+    border-radius: 8px;
+    padding: 8px 13px;
+    outline: 0;
+    font-style: italic;
+    width: 25%;
+  }
+
+  .main-banner .new-search .button-search {
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: #FF1448;
+    background-color: rgba(255, 174, 192, 19%);
+    width: 119px;
+    height: 44px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .wrapper-card {
+    gap: 31px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .main-skills {
+    display: block;
+    height: auto;
+  }
+
+  .wrapper-tutor {
+    display: flex;
+    height: 800px;
+    position: relative;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 124px;
+    justify-content: center;
+    background-image: none;
+  }
+
+
+  
+  .main-experts {
+    height: 1643px;
+    display: block;
+  }
+
+  .main-experts .learn-experts {
+    position: unset;
+    transform: none;
+    background-image: none;
+    height: unset;
+    display: flex;
+    max-width: min-content;
+    background-position: unset;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 103px;
+  }
+
+  .main-experts .wrapper-card__experts {
+    display: flex;
+    margin-top: 96px;
+    flex-wrap: wrap;
+    width: 567px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 31px;
+  }
+
+  .find-tutor {
+    background-image: none;
+    height: 1042px;
+  }
+
+  .title-depositions {
+    margin-left: 25px;
+  }
+
+  .depositions-content {
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-position: 25px top;
+  }
+
+  .depositions-buttons {
+    bottom: 88px;
+    padding-right: 27px;
+  }
+
+  .depositions-carousel {
+    gap: unset;
+  }
+
+  .deposition-slides {
+    gap: 25px;
+    margin-left: 25px;
+  }
+
+  .depositions-options {
+    margin-left: 25px;
+  }
+
+  .nav-footer {
+    gap: 34px;
+    flex-direction: column;
+    position: relative;
+    top: 44px;
+  }
+
+  .social-media {
+    left: 2px;
+  }
+
+  .wrapper-tutor .post-requirement {
+    position: unset;
+  }
+
+  .wrapper-tutor .demo-schedule {
+    position: unset;
+  }
+
+  .wrapper-depositions {
+    width: auto;
+  }
+
+
+  .wrapper-tutor .search-select {
+    position: unset;
+  }
+
+  .wrapper-tutor .improve-skills {
+    position: unset;
+  }
+
+  .wrapper-tutor .post-requirement .linha-wrapper__tutor {
+    display: none;
+  }
+
+  .wrapper-tutor .demo-schedule .linha-wrapper__tutor__02 {
+    display: none;
+  }
+
+  .wrapper-tutor .search-select .linha-wrapper__tutor__03 {
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 769px){
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 47px 0 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+  }
+
+  .main-banner .wrapper {
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background-repeat: no-repeat;
+    background-position: 89% 3%;
+    display: flow-root;
+    background-size: 46%;
+    padding-left: 40px;
+    width: auto;
+  }
+
+  .main-box {
+    margin-top: 52px;
+    margin-bottom: 64px;
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: initial;
+    display: block;
+    width: 502px;
+    height: 191px;
+  }
+
+  .main-banner .new-search input {
+    border-radius: 8px;
+    padding: 8px 13px;
+    outline: 0;
+    font-style: italic;
+    width: 25%;
+  }
+
+  .main-banner .new-search .button-search {
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    color: #FF1448;
+    background-color: rgba(255, 174, 192, 19%);
+    width: 119px;
+    height: 44px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .wrapper-card {
+    gap: 31px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  .main-skills {
+    display: block;
+    height: auto;
+  }
+
+  .wrapper-tutor {
+    display: flex;
+    height: 800px;
+    position: relative;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 124px;
+    justify-content: center;
+    background-image: none;
+  }
+
+
+  
+  .main-experts {
+    height: 1643px;
+    display: block;
+  }
+
+  .main-experts .learn-experts {
+    position: unset;
+    transform: none;
+    background-image: none;
+    height: unset;
+    display: flex;
+    max-width: min-content;
+    background-position: unset;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 103px;
+  }
+
+  .main-experts .wrapper-card__experts {
+    display: flex;
+    margin-top: 96px;
+    flex-wrap: wrap;
+    width: 567px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 31px;
+  }
+
+  .find-tutor {
+    background-image: none;
+    height: 1042px;
+  }
+
+  .title-depositions {
+    margin-left: 25px;
+  }
+
+  .depositions-content {
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-position: 25px top;
+  }
+
+  .depositions-buttons {
+    bottom: 88px;
+    padding-right: 27px;
+  }
+
+  .depositions-carousel {
+    gap: unset;
+  }
+
+  .deposition-slides {
+    gap: 55px;
+    margin-left: 55px;
+  }
+
+  .depositions-options {
+    margin-left: 25px;
+  }
+
+  .nav-footer {
+    gap: 34px;
+    flex-direction: column;
+    position: relative;
+    top: 44px;
+  }
+
+  .social-media {
+    left: 2px;
+  }
+
+  .wrapper-tutor .post-requirement {
+    position: unset;
+  }
+
+  .wrapper-tutor .demo-schedule {
+    position: unset;
+  }
+
+  .wrapper-depositions {
+    width: auto;
+  }
+
+
+  .wrapper-tutor .search-select {
+    position: unset;
+  }
+
+  .wrapper-tutor .improve-skills {
+    position: unset;
+  }
+
+  .wrapper-tutor .post-requirement .linha-wrapper__tutor {
+    display: none;
+  }
+
+  .wrapper-tutor .demo-schedule .linha-wrapper__tutor__02 {
+    display: none;
+  }
+
+  .wrapper-tutor .search-select .linha-wrapper__tutor__03 {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1022px) {
   .main-header {
     display: flex;
     align-items: center;
