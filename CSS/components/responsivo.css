@@ -136,6 +136,17 @@
     margin-left: 25px;
   }
 
+  .nav-footer {
+    gap: 34px;
+    flex-direction: column;
+    position: relative;
+    top: 44px;
+  }
+
+  .social-midia {
+    left: 2px;
+  }
+
   .wrapper-tutor .post-requirement {
     position: unset;
   }
@@ -169,10 +180,6 @@
     display: none;
   }
 
-
-  .main-footer {
-    display: none;
-  }
 
 }
 
