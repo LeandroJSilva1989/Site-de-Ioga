@@ -25,8 +25,7 @@
     font-weight: 700;
     line-height: initial;
     display: block;
-    width: 502px;
-    height: 191px;
+    max-width: 380px;
   }
 
   .main-banner .new-search input {
@@ -210,8 +209,7 @@
     font-weight: 700;
     line-height: initial;
     display: block;
-    width: 502px;
-    height: 191px;
+    max-width: 430px;
   }
 
   .main-banner .new-search input {
@@ -367,7 +365,7 @@
 
 }
 
-@media screen and (min-width: 770px) and (max-width: 1022.99px) {
+@media screen and (min-width: 770px) and (max-width: 1022px) {
   .main-header {
     display: flex;
     align-items: center;
@@ -575,13 +573,12 @@
 
   .main-box {
     margin-top: 99px;
-    margin-bottom: 49px;
+    margin-bottom: 64px;
     font-size: 2.5em;
     font-weight: 700;
     line-height: initial;
     display: block;
-    width: 502px;
-    height: 255px;
+    max-width: 470px;
   }
 
   .wrapper-card {
