@@ -1,3 +1,33 @@
+@media screen and (min-width: 319px) and (max-width: 600px) {
+  .main-header {
+    display: none;
+  }
+
+  .main-banner {
+    display: none;
+  }
+
+  .main-skills {
+    display: none;
+  }
+
+  .find-tutor {
+    display: none;
+  }
+
+  .main-experts {
+    display: none;
+  }
+
+  .main-depositions {
+    display: none;
+  }
+
+  .main-footer {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 650px) and (max-width: 767.99px) {
   .main-header {
     display: flex;
