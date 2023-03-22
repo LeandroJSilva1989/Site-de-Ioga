@@ -38,16 +38,18 @@
             alt="logo do header">
         </a>
 
-        <nav class="menu-navigation">
+        <nav id="mySidePanel" class="menu-navigation side-panel">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;
+
             <ul>
-                <li><a class="main-action" href="" lang="en">Home</a></li>
-                <li><a class="main-action" href="" lang="en">Services</a></li>
-                <li><a class="main-action" href="" lang="en">Blogs</a></li>
-                <li><a class="main-action" href="" lang="en">Contact</a></li>
+                <li><a class="main-action" href="#home" lang="en">Home</a></li>
+                <li><a class="main-action" href="#" lang="en">Services</a></li>
+                <li><a class="main-action" href="#" lang="en">Blogs</a></li>
+                <li><a class="main-action" href="#" lang="en">Contact</a></li>
             </ul>
         </nav>
 
-        <a class="menu-list" href="">
+        <a class="menu-list open-btn" onclick="openNav()" href="">
             <img class="menu-dark" id="menu-dark" src="https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/list-menu.png" alt="List-menu">
         </a>
     </header>

@@ -1,0 +1,7 @@
+.side-panel .close-btn {
+    display: none;
+}
+
+.open-btn:hover {
+    background-color: #444;
+}
