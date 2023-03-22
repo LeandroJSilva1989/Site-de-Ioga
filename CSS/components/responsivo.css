@@ -1,4 +1,8 @@
 @media screen and (min-width: 319px) and (max-width: 649px) {
+  .main-header .menu-navigation ul {
+    flex-wrap: wrap;
+  }
+  
   .main-header {
     display: flex;
     align-items: center;
