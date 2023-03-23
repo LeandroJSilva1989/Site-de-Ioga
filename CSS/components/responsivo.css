@@ -1,8 +1,8 @@
-@media screen and (min-width: 319px) and (max-width: 649px) {
+@media screen and (min-width: 321px) and (max-width: 649px) {
   .main-header .menu-navigation ul {
     flex-wrap: wrap;
   }
-  
+
   .main-header {
     display: flex;
     align-items: center;
@@ -20,35 +20,35 @@
     margin-left: 50px;
   }
 
-    /* The sidepanel links */
-    .side-panel ul li a{
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
 
-      /* When you mouse over the navigation links, change their color */
+  .side-panel ul li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+
   .side-panel ul li a:hover {
     color: #f1f1f1;
   }
 
-  /* The sidepanel menu */
-.side-panel {
-  display: flex;
-  height: 250px; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 999; /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-}
+
+  .side-panel {
+    display: flex;
+    height: 250px;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: #908888;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
 
   .main-banner {
     display: none;
@@ -150,7 +150,7 @@
   }
 
 
-  
+
   .main-experts {
     height: 1643px;
     display: block;
@@ -259,7 +259,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 769.99px){
+@media screen and (min-width: 768px) and (max-width: 769.99px) {
   .main-header {
     display: flex;
     align-items: center;
@@ -334,7 +334,7 @@
   }
 
 
-  
+
   .main-experts {
     height: 1643px;
     display: block;
@@ -517,7 +517,7 @@
   }
 
 
-  
+
   .main-experts {
     height: 1643px;
     display: block;
