@@ -51,8 +51,57 @@
   }
 
   .main-banner {
-    display: none;
+    display: unset;
+    margin-top: 0;
   }
+
+  .main-banner .wrapper {
+    background: none;
+    background-repeat: unset;
+    background-position: unset;
+    display: flow-root;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-box {
+    margin-top: 27px;
+    margin-bottom: 49px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: initial;
+    display: block;
+    max-width: inherit;
+    padding: 0 25px 0 25px;
+  }
+
+  .main-banner .new-search {
+    display: inline-flex;
+    margin-left: 25px;
+    gap: 25px;
+  }
+
+  .main-banner .new-search input {
+    border-radius: 8px;
+    padding: 5px;
+    outline: 0;
+    font-style: italic;
+    max-width: 169px;
+    height: 46px;
+    box-sizing: border-box;
+  }
+
+  .main-banner .new-search .button-search {
+    width: 104px;
+  }
+
+  .main-banner .new-search .button-search i {
+    --fa-animation-duration: 2s;
+    animation-iteration-count: 2;
+  }
+
+
 
   .main-skills {
     display: none;
