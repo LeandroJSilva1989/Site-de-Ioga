@@ -16,8 +16,8 @@
 }
 
 .main-banner .new-search {
-    display: block;
-
+    display: flex;
+    gap: 25px;
 }
 
 .main-banner .new-search input {
