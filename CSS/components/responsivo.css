@@ -71,15 +71,17 @@
     font-size: 2.2rem;
     font-weight: 700;
     line-height: initial;
-    display: block;
-    max-width: inherit;
-    padding: 0 25px 0 25px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .main-banner .new-search {
-    display: inline-flex;
-    margin-left: 25px;
+    display: flex;
+    margin-left: auto;
     gap: 25px;
+    width: fit-content;
+    margin-right: auto;
   }
 
   .main-banner .new-search input {
