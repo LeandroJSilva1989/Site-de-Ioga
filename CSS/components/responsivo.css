@@ -192,6 +192,7 @@
     display: flow-root;
     position: unset;
     height: min-content;
+    padding-bottom: 50px;
   }
 
   .main-experts .learn-experts {
@@ -227,6 +228,7 @@
     position: unset;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 
