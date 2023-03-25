@@ -103,12 +103,78 @@
 
 
   .main-skills {
-    display: none;
+    padding: unset;
+    height: min-content;
+    padding-bottom: 4.625rem;
+  }
+
+  .wrapper-card {
+    flex-wrap: wrap;
+    width: 254px;
+    gap: 31px;
+    margin-top: 46px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .wrapper-card .card-learning {
+    width: inherit;
+    height: min-content;
+  }
+
+  .wrapper-card .card-expertise {
+    width: inherit;
+    height: min-content;
+  }
+
+  .wrapper-card .card-experts {
+    width: inherit;
+    height: min-content;
   }
 
   .find-tutor {
-    display: none;
+    background-image: none;
+    background-repeat: unset;
+    background-position: unset;
+    height: min-content;
+    padding-top: 53px;
+    box-sizing: border-box;
+    position: unset;
+    padding-bottom: 59px;
   }
+
+  .wrapper-tutor {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    gap: 30px;
+    position: unset;
+    width: min-content;
+    background-image: none;
+    background-repeat: unset;
+    background-position: unset;
+  }
+
+  .wrapper-tutor .post-requirement {
+    position: unset;
+  }
+
+  .wrapper-tutor .demo-schedule {
+    position: unset;
+  }
+
+  .wrapper-tutor .search-select {
+    position: unset;
+  }
+
+  .wrapper-tutor .improve-skills {
+    position: unset;  
+  }
+
+  
 
   .main-experts {
     display: none;
