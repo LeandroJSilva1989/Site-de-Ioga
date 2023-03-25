@@ -171,14 +171,52 @@
   }
 
   .wrapper-tutor .improve-skills {
-    position: unset;  
+    position: unset;
   }
 
-  
+
 
   .main-experts {
-    display: none;
+    display: flow-root;
+    position: unset;
+    height: min-content;
   }
+
+  .main-experts .learn-experts {
+    position: unset;
+    top: 50%;
+    transform: unset;
+    margin-left: auto;
+    background-image: none;
+    height: fit-content;
+    background-repeat: unset;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: min-content;
+    align-content: center;
+    background-position: unset;
+    padding: 0 22px 0 22px;
+    margin-top: 40px;
+  }
+
+  .wrapper-card__experts {
+    width: auto;
+    height: min-content;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .wrapper-card__experts .fitness-trainer {
+    position: unset;
+  }
+
+  .wrapper-card__experts .it-skills {
+    position: unset;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
 
   .main-depositions {
     display: none;
