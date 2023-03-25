@@ -17,6 +17,7 @@
     font-size: 1rem;
     font-weight: 600;
     line-height: 4.375rem;
+    width: -webkit-fill-available;
 }
 
 .main-experts .learn-experts {

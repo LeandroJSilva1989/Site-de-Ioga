@@ -158,6 +158,18 @@
     background-position: unset;
   }
 
+  .wrapper-tutor .linha-wrapper__tutor {
+    display: none;
+  }
+
+  .wrapper-tutor .linha-wrapper__tutor__02 {
+    display: none;
+  }
+
+  .wrapper-tutor .linha-wrapper__tutor__03 {
+    display: none;
+  }
+
   .wrapper-tutor .post-requirement {
     position: unset;
   }
@@ -187,6 +199,7 @@
     top: 50%;
     transform: unset;
     margin-left: auto;
+    margin-right: auto;
     background-image: none;
     height: fit-content;
     background-repeat: unset;
