@@ -11,9 +11,12 @@
   cursor: pointer; 
   padding: 15px; 
   border-radius: 10px;
-  font-size: 18px; 
+  font-size: 18px;
+  --fa-animation-iteration-count: 2;
 }
 
 #btn-top:hover {
   background-color: #555; 
 }
+
+

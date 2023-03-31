@@ -43,3 +43,8 @@
 ::-webkit-input-placeholder {
     font-style: italic;
 }
+
+.main-banner .new-search .button-search i {
+    --fa-animation-duration: 2s;
+    animation-iteration-count: 2;
+}
