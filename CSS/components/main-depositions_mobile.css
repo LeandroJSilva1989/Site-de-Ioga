@@ -1,6 +1,6 @@
 .main-depositions_mobile {
     height: 953px;
-    display: flex;
+    display: none;
     align-content: flex-end;
     flex-wrap: wrap;
   }

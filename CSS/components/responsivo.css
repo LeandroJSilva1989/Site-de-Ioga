@@ -231,7 +231,9 @@
     justify-content: center;
   }
 
-  
+  .main-depositions_mobile {
+    display: flex;
+  }
 
 
 
@@ -425,9 +427,7 @@
     display: none;
   }
 
-  .main-depositions_mobile {
-    display: none;
-  }
+ 
 
 
 }
@@ -613,9 +613,6 @@
     display: none;
   }
 
-  .main-depositions_mobile {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 770px) and (max-width: 1022px) {
@@ -799,9 +796,7 @@
     display: none;
   }
 
-  .main-depositions_mobile {
-    display: none;
-  }
+
 
 
 }
@@ -895,7 +890,5 @@
     gap: 20px;
   }
 
-  .main-depositions_mobile {
-    display: none;
-  }
+
 }
