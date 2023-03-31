@@ -425,6 +425,10 @@
     display: none;
   }
 
+  .main-depositions_mobile {
+    display: none;
+  }
+
 
 }
 
@@ -609,6 +613,9 @@
     display: none;
   }
 
+  .main-depositions_mobile {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 770px) and (max-width: 1022px) {
@@ -792,6 +799,10 @@
     display: none;
   }
 
+  .main-depositions_mobile {
+    display: none;
+  }
+
 
 }
 
@@ -882,5 +893,9 @@
   .deposition-slides {
     display: flex;
     gap: 20px;
+  }
+
+  .main-depositions_mobile {
+    display: none;
   }
 }

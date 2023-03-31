@@ -11,7 +11,7 @@
 }
 
 
-.depositions-content {
+.depositions-content{
   height: 840px;
   align-content: flex-end;
   display: grid;
@@ -22,7 +22,7 @@
   margin-right: auto;
 }
 
-.title-depositions {
+.title-depositions{
   line-height: 4.375rem;
   font-weight: 400;
   font-size: 3.625rem;

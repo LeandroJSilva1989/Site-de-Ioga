@@ -1,0 +1,116 @@
+.main-depositions_mobile {
+    height: 953px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .deposition-slides_mobile {
+    display: flex;
+    gap: 39px;
+  }
+  
+  
+  .depositions-content_mobile {
+    height: 840px;
+    align-content: flex-end;
+    display: grid;
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
+    background-repeat: no-repeat;
+    background-position: top left, 699px 213px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title-depositions_mobile {
+    line-height: 4.375rem;
+    font-weight: 400;
+    font-size: 3.625rem;
+    height: 210px;
+    width: 552.43px;
+  }
+  
+  .content-depositions_mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .content-depositions_mobile img {
+    border-radius: 50%;
+  }
+  
+  .wrapper-depositions_mobile {
+    display: flex;
+    overflow: hidden;
+    width: 62em;
+  }
+  
+  
+  .depositions-carousel_mobile {
+    height: 392px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s ease-in-out;
+    gap: 39px;
+  }
+  
+  
+  .depositions-carousel-slide_mobile {
+    width: 300px;
+    height: 283.06px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #E2E4E8;
+    padding: 28px;
+    line-height: 28px;
+    box-sizing: border-box;
+    display:flex;
+  }
+  
+  
+  .description-depositions_mobile {
+    word-break: break-all;
+    margin-top: 36px;
+    margin-bottom: 7px;
+  }
+  
+  .follow a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 32px;
+    color: #1D293F;
+  }
+  
+  .depositions-options_mobile {
+    display: flex;
+    align-self: self-end;
+    position: absolute;
+    gap: 16px;
+  }
+  
+  .depositions-options_mobile button {
+   cursor: pointer;
+   margin: 0 0.125em;
+   position: relative;
+   user-select: none;
+   content: "";
+   width: 24px;
+   height: 5px;
+   border-radius: 2px;
+   background-color: #E2E4E8;
+   border: none;
+  }
+  
+  .depositions-options_mobile button.active {
+    background-color: #258AFF;
+  }
+
+  .depositions-buttons_mobile {
+    display: flex;
+    position: relative;
+    bottom: 138px;
+    margin-left: auto;
+    width: fit-content;
+}
+  
