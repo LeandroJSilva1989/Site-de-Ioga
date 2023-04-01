@@ -425,6 +425,12 @@
     display: none;
   }
 
+  .main-depositions-mobile {
+    height: 953px;
+    display: none;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
  
 
 
@@ -611,6 +617,14 @@
     display: none;
   }
 
+  .main-depositions-mobile {
+    height: 953px;
+    display: none;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+ 
+
 }
 
 @media screen and (min-width: 770px) and (max-width: 1022px) {
@@ -793,6 +807,15 @@
   .wrapper-tutor .search-select .linha-wrapper__tutor__03 {
     display: none;
   }
+  
+
+  .main-depositions-mobile {
+    height: 953px;
+    display: none;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+ 
 
 
 
@@ -888,5 +911,12 @@
     gap: 20px;
   }
 
+   .main-depositions-mobile {
+    height: 953px;
+    display: none;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+ 
 
 }

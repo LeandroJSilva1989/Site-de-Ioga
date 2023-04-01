@@ -1,9 +1,9 @@
-.main-depositions-mobile {
-    height: 953px;
-    display: none;
-    align-content: flex-end;
-    flex-wrap: wrap;
-  }
+/*.main-depositions-mobile {
+  height: 953px;
+  display: none;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}*/
   
   .deposition-slides_mobile {
     display: flex;
