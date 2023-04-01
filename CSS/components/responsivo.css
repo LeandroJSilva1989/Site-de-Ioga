@@ -231,14 +231,12 @@
     justify-content: center;
   }
 
-  .main-depositions_mobile {
-    display: flex;
-  }
-
-
-
   .main-depositions {
     display: none;
+  }
+
+  .main-depositions-mobile {
+    display: flex;
   }
 
   .main-footer {
