@@ -99,6 +99,10 @@
   color: #FFFFFF;
 }
 
+.dark .depositions-content_mobile .title-depositions_mobile {
+  color: #FFFFFF;
+}
+
 .dark .depositions-carousel .dark-depositions {
   background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-figure-depositions.jpg);
   color: #FFFFFF;
