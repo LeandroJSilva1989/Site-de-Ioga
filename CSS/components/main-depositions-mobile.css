@@ -1,8 +1,9 @@
 /*.main-depositions-mobile {
   height: 953px;
-  display: none;
+  display: flex;
   align-content: flex-end;
   flex-wrap: wrap;
+  width: 100%;
 }*/
   
   .deposition-slides_mobile {
@@ -27,7 +28,6 @@
     font-weight: 400;
     font-size: 3.625rem;
     height: 210px;
-    width: 552.43px;
   }
   
   .content-depositions_mobile {

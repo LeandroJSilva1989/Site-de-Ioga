@@ -105,6 +105,12 @@
   background-size: cover;
 }
 
+.dark .depositions-carousel_mobile .dark-depositions {
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/background-dark-figure-depositions.jpg);
+  color: #FFFFFF;
+  background-size: cover;
+}
+
 .dark .follow a {
   color: #FFFFFF;
 }

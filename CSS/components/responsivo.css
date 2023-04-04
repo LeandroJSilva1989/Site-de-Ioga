@@ -236,8 +236,51 @@
   }
 
   .main-depositions-mobile {
+    height: 953px;
     display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
   }
+
+.depositions-content_mobile {
+  background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+  background-repeat: no-repeat;
+  background-position: 30px 2px;
+  padding: 0px 30px 0 30px;
+}
+
+.title-depositions_mobile {
+  margin-bottom: 64px;
+  margin-left: 6px;
+}
+
+.depositions-buttons_mobile {
+  bottom: 26px;
+  margin-left: 6px;
+}
+
+.wrapper-depositions_mobile {
+  width: 100%;
+}
+
+.depositions-carousel_mobile {
+  gap: 4px;
+  width: 100%;
+}
+
+.deposition-slides_mobile {
+  display: flex;
+  gap: 16px;
+}
+
+.depositions-carousel-slide_mobile {
+  width: 269px;
+  margin-left: 6px;
+}
+
+
+
 
   .main-footer {
     display: none;
