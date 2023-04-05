@@ -1,44 +1,43 @@
-const btnRight = document.querySelector(".btn-arrow-right");
- const btnLeft = document.querySelector(".btn-arrow-left");
- const elements = document.querySelector(".elements");
+const btnRightMobile = document.querySelector(".btn-arrow-right-mobile");
+ const btnLeftMobile = document.querySelector(".btn-arrow-left-mobile");
+ const elementsMobile = document.querySelector(".elements-mobile");
  let pixels = 0;
 
 
  
 
- btnRight.addEventListener("click", function() {
+ btnRightMobile.addEventListener("click", function() {
    pixels = pixels - 22.3;
-   elements.style = `transform: translateX(${pixels}%)`;
-   
- });
+   elementsMobile.style = `transform: translateX(${pixels}%)`;
+  });
 
- btnLeft.addEventListener("click", function() {
+ btnLeftMobile.addEventListener("click", function() {
    pixels = pixels + 22.3;
-   elements.style = `transform: translateX(${pixels}%)`;
+   elementsMobile.style = `transform: translateX(${pixels}%)`;
 });
 
 
-const buttonsWrapper = document.querySelector(".depositions-options");
-const slides = document.querySelector(".depositions-carousel");
+const buttonsWrapperMobile = document.querySelector(".depositions-options_mobile");
+const slidesMobile = document.querySelector(".depositions-carousel_mobile");
 
 
 
-buttonsWrapper.addEventListener("click", e => {
+buttonsWrapperMobile.addEventListener("click", e => {
   
   
   if (e.target.nodeName === "BUTTON") {
-    Array.from(buttonsWrapper.children).forEach(item =>
+    Array.from(buttonsWrapperMobile.children).forEach(item =>
       item.classList.remove("active")
     );
     
-    if (e.target.classList.contains("first")) {
-      slides.style.transform = "translateX(-0%)";
+    if (e.target.classList.contains("first-mobile")) {
+      slidesMobile.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
-    } else if (e.target.classList.contains("second")) {
-      slides.style.transform = "translateX(-22.3%)";
+    } else if (e.target.classList.contains("second-mobile")) {
+      slidesMobile.style.transform = "translateX(-22.3%)";
       e.target.classList.add("active");
-    } else if (e.target.classList.contains('third')){
-      slides.style.transform = 'translatex(-44.6%)';
+    } else if (e.target.classList.contains('third-mobile')){
+      slidesMobile.style.transform = 'translatex(-44.6%)';
       e.target.classList.add('active');
       
     } 
@@ -47,74 +46,75 @@ buttonsWrapper.addEventListener("click", e => {
 });
 
 
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndexMobile = 1;
+showSlides(slideIndexMobile);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides(slideIndexMobile += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideIndexMobile = n);
 }
 
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("depositions-carousel-slide");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideIndexMobile = 1}    
+  if (n < 1) {slideIndexMobile = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "";  
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace("active", "");
   }
-  slides[slideIndex-1].style.display = "flex";  
-  dots[slideIndex-1].className += " active";
+  slides[slideIndexMobile-1].style.display = "flex";  
+  dots[slideIndexMobile-1].className += " active";
 }
 
 // recupera os elementos HTML relevantes
-const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
-const prevButton = document.getElementById('previewDepositions');
-const nextButton = document.getElementById('nextDepositions');
+const carouselMobile = document.querySelector('.wrapper-depositions_mobile .depositions-carousel_mobile');
+const prevButtonMobile = document.getElementById('previewDepositionsMobile');
+const nextButtonMobile = document.getElementById('nextDepositionsMobile');
 
 
 // define o índice inicial do carrossel
-let currentSlideIndex = 0;
-updateButtonStates();
+let currentSlideIndexMobile = 0;
+updateButtonStatesMobile();
 
 // adiciona um manipulador de eventos "click" para cada botão
-prevButton.addEventListener('click', handlePrevButtonClick);
-nextButton.addEventListener('click', handleNextButtonClick);
+prevButtonMobile.addEventListener('click', handlePrevButtonClickMobile);
+nextButtonMobile.addEventListener('click', handleNextButtonClickMobile);
 
 // define a função para desativar o botão "preview" quando estiver no início e o botão "next" quando estiver no final
-function handlePrevButtonClick() {
-  currentSlideIndex--;
-  updateButtonStates();
+function handlePrevButtonClickMobile() {
+  currentSlideIndexMobile--;
+  updateButtonStatesMobile();
 }
 
-function handleNextButtonClick() {
-  currentSlideIndex++;
-  updateButtonStates();
+function handleNextButtonClickMobile() {
+  currentSlideIndexMobile++;
+  updateButtonStatesMobile();
 }
 
-function updateButtonStates() {
-  if (currentSlideIndex <= 0) {
+function updateButtonStatesMobile() {
+  if (currentSlideIndexMobile <= 0) {
     // o carrossel está no início, desativa o botão "preview"
-    prevButton.disabled = true;
+    prevButtonMobile.disabled = true;
   } else {
     // o carrossel não está no início, ativa o botão "preview"
-    prevButton.disabled = false;
+    prevButtonMobile.disabled = false;
     
   }
 
-  if (currentSlideIndex >= carousel.children.length - 1) {
+  if (currentSlideIndexMobile >= carousel.children.length - 1) {
     // o carrossel está no final, desativa o botão "next"
-    nextButton.disabled = true;
+    nextButtonMobile.disabled = true;
   } else {
     // o carrossel não está no final, ativa o botão "next"
-    nextButton.disabled = false;
+    nextButtonMobile.disabled = false;
   }
 }
+
 
