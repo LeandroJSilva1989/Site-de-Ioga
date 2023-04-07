@@ -7,12 +7,12 @@ const btnRightMobile = document.querySelector(".btn-arrow-right-mobile");
  
 
  btnRightMobile.addEventListener("click", function() {
-   pixelsMobile = pixelsMobile - 22.3;
+   pixelsMobile = pixelsMobile - 100;
    elementsMobile.style = `transform: translateX(${pixelsMobile}%)`;
   });
 
  btnLeftMobile.addEventListener("click", function() {
-   pixelsMobile = pixelsMobile + 22.3;
+   pixelsMobile = pixelsMobile + 100;
    elementsMobile.style = `transform: translateX(${pixelsMobile}%)`;
 });
 
