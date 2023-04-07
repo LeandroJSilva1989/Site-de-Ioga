@@ -1,19 +1,19 @@
 const btnRightMobile = document.querySelector(".btn-arrow-right-mobile");
  const btnLeftMobile = document.querySelector(".btn-arrow-left-mobile");
  const elementsMobile = document.querySelector(".elements-mobile");
- let pixels = 0;
+ let pixelsMobile = 0;
 
 
  
 
  btnRightMobile.addEventListener("click", function() {
-   pixels = pixels - 22.3;
-   elementsMobile.style = `transform: translateX(${pixels}%)`;
+   pixelsMobile = pixelsMobile - 22.3;
+   elementsMobile.style = `transform: translateX(${pixelsMobile}%)`;
   });
 
  btnLeftMobile.addEventListener("click", function() {
-   pixels = pixels + 22.3;
-   elementsMobile.style = `transform: translateX(${pixels}%)`;
+   pixelsMobile = pixelsMobile + 22.3;
+   elementsMobile.style = `transform: translateX(${pixelsMobile}%)`;
 });
 
 
@@ -108,7 +108,7 @@ function updateButtonStatesMobile() {
     
   }
 
-  if (currentSlideIndexMobile >= carousel.children.length - 1) {
+  if (currentSlideIndexMobile >= carouselMobile.children.length - 1) {
     // o carrossel está no final, desativa o botão "next"
     nextButtonMobile.disabled = true;
   } else {
