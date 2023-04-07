@@ -47,20 +47,20 @@ buttonsWrapperMobile.addEventListener("click", e => {
 
 
 let slideIndexMobile = 1;
-showSlides(slideIndexMobile);
+showSlidesMobile(slideIndexMobile);
 
-function plusSlides(n) {
-  showSlides(slideIndexMobile += n);
+function plusSlidesMobile(n) {
+  showSlidesMobile(slideIndexMobile += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndexMobile = n);
+function currentSlideMobile(n) {
+  showSlidesMobile(slideIndexMobile = n);
 }
 
-function showSlides(n) {
+function showSlidesMobile(n) {
   let i;
-  let slides = document.getElementsByClassName("depositions-carousel-slide");
-  let dots = document.getElementsByClassName("dot");
+  let slides = document.getElementsByClassName("depositions-carousel-slide_mobile");
+  let dots = document.getElementsByClassName("dot-mobile");
   if (n > slides.length) {slideIndexMobile = 1}    
   if (n < 1) {slideIndexMobile = slides.length}
   for (i = 0; i < slides.length; i++) {
