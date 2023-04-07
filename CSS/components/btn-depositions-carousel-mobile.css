@@ -1,0 +1,70 @@
+.btn-arrow-mobile {
+  color: transparent;
+  display: block;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  transition: all 150ms ease-out;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.depositions-buttons_mobile {
+  display: flex;
+  position: relative;
+  bottom: 138px;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.btn-arrow-left-mobile:disabled::after,
+.btn-arrow-left-mobile:disabled::before,
+.btn-arrow-right-mobile:disabled::after,
+.btn-arrow-right-mobile:disabled::before {
+  background-color: #E2E4E8;
+  cursor: default;
+}
+
+
+.btn-arrow-mobile:disabled {
+  cursor: default;
+}
+
+.btn-arrow-mobile::before,
+.btn-arrow-mobile::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #E2E4E8;
+  transition: all 150ms ease-out;
+}
+
+.btn-arrow-mobile::before {
+  width: 75%;
+  height: 17%;
+  border-radius: 10px;
+  background-color: #258AFF;
+
+}
+
+.btn-arrow-mobile::after {
+  width: 17%;
+  height: 75%;
+  border-radius: 10px;
+  background-color: #258AFF;
+
+}
+
+
+.btn-arrow-mobile.btn-arrow-left-mobile {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.btn-arrow-mobile.btn-arrow-right-mobile {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}

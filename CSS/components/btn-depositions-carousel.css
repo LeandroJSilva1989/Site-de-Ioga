@@ -18,17 +18,21 @@
     width: fit-content;
 }
 
-.btn-arrow-left:disabled::after, .btn-arrow-left:disabled::before, .btn-arrow-right:disabled::after, .btn-arrow-right:disabled::before {
+.btn-arrow-left:disabled::after,
+.btn-arrow-left:disabled::before,
+.btn-arrow-right:disabled::after,
+.btn-arrow-right:disabled::before {
     background-color: #E2E4E8;
     cursor: default;
 }
 
 
 .btn-arrow:disabled {
-    cursor:default;
+    cursor: default;
 }
 
-.btn-arrow::before, .btn-arrow::after {
+.btn-arrow::before,
+.btn-arrow::after {
     content: "";
     display: block;
     position: absolute;
@@ -37,13 +41,13 @@
     background-color: #E2E4E8;
     transition: all 150ms ease-out;
 }
-  
+
 .btn-arrow::before {
     width: 75%;
     height: 17%;
     border-radius: 10px;
     background-color: #258AFF;
-  
+
 }
 
 .btn-arrow::after {
@@ -51,11 +55,14 @@
     height: 75%;
     border-radius: 10px;
     background-color: #258AFF;
-   
+
 }
 
 
-.btn-arrow.btn-arrow-left::before, .btn-arrow.btn-arrow-left::after, .btn-arrow.btn-arrow-right::before, .btn-arrow.btn-arrow-right::after {
+.btn-arrow.btn-arrow-left::before,
+.btn-arrow.btn-arrow-left::after,
+.btn-arrow.btn-arrow-right::before,
+.btn-arrow.btn-arrow-right::after {
     top: 12.5%;
     left: 12.5%;
 }
@@ -67,6 +74,5 @@
 
 .btn-arrow.btn-arrow-right {
     -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    transform: rotate(135deg);
 }
-  
