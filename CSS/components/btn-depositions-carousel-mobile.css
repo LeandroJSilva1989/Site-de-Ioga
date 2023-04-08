@@ -13,9 +13,10 @@
 .depositions-buttons_mobile {
   display: flex;
   position: relative;
-  bottom: 138px;
+  bottom: 44px;
   margin-left: auto;
   width: fit-content;
+  padding: 0px 30px 0 30px;
 }
 
 .btn-arrow-left-mobile:disabled::after,

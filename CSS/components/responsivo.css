@@ -1,4 +1,4 @@
-@media screen and (min-width: 321px) and (max-width: 649px) {
+@media screen and (min-width: 321px) and (max-width: 414px) {
   .main-header .menu-navigation ul {
     flex-wrap: wrap;
   }
@@ -260,6 +260,7 @@
     height: 210px;
     margin-bottom: 64px;
     margin-left: 6px;
+    padding: 0px 30px 0 30px;
   }
 
   .follow a {
@@ -322,7 +323,7 @@
   .wrapper-depositions_mobile {
     display: flex;
     overflow: hidden;
-    width: 100%;
+    width: auto;
   }
 
   .depositions-carousel_mobile {
@@ -361,7 +362,7 @@
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 767.99px) {
+@media screen and (min-width: 415px) and (max-width: 767.99px) {
   .main-header {
     display: flex;
     align-items: center;
