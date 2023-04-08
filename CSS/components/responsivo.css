@@ -250,7 +250,6 @@
     background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
     background-repeat: no-repeat;
     background-position: 30px 2px;
-    padding: 0px 30px 0 30px;
   }
 
   .title-depositions_mobile {
@@ -258,7 +257,7 @@
     font-weight: 400;
     font-size: 3.625rem;
     height: 210px;
-    margin-bottom: 64px;
+    margin-bottom: 78px;
     margin-left: 6px;
     padding: 0px 30px 0 30px;
   }
@@ -282,16 +281,6 @@
     align-self: self-end;
     position: absolute;
     gap: 16px;
-  }
-
-  .depositions-buttons_mobile {
-
-    display: flex;
-    position: relative;
-    margin-left: auto;
-    width: fit-content;
-    bottom: 26px;
-    margin-left: 6px;
   }
 
   .depositions-options_mobile button {
@@ -331,13 +320,11 @@
     display: flex;
     justify-content: space-between;
     transition: all 1s ease-in-out;
-    gap: 4px;
-    width: 100%;
+    width: 72%;
   }
 
   .deposition-slides_mobile {
     display: flex;
-    gap: 16px;
   }
 
   .depositions-carousel-slide_mobile {
@@ -350,7 +337,7 @@
     box-sizing: border-box;
     display: flex;
     width: 269px;
-    margin-left: 6px;
+    margin-left: 10px;
   }
 
 
