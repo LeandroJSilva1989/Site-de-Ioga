@@ -10,6 +10,11 @@
   cursor: pointer;
 }
 
+.btn-arrow-mobile:hover {
+  background-color: #258AFF;
+  border-radius: 8px;
+}
+
 .depositions-buttons_mobile {
   display: flex;
   position: relative;
