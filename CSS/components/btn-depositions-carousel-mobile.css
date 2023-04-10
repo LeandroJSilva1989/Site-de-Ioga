@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+.btn-arrow-mobile:focus {
+  background-color: transparent;
+}
+
 
 
 .depositions-buttons_mobile {
