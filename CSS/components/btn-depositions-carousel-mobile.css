@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.btn-arrow-mobile:focus {
+.btn-arrow-mobile:hover {
   background-color: transparent;
 }
 
