@@ -10,12 +10,12 @@
   cursor: pointer;
 }
 
-.btn-arrow-mobile:clicked {
+.btn-arrow-mobile {
   background: transparent;
 }
 
 .btn-arrow-mobile:hover {
-  background-color: transparent;
+  background-color: red;
 }
 
 
