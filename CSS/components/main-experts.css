@@ -64,7 +64,7 @@
     cursor: pointer;
 }
 
-.main-experts .button-find {
+.main-experts .button-find:active {
     color: white;
     background-color: #FF1448;
 }
