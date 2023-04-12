@@ -27,6 +27,11 @@
     font-style: italic;
 }
 
+.main-banner .new-search .button-search:active {
+    color: white;
+    background-color: #FF1448;
+}
+
 .main-banner .new-search .button-search {
     align-items: center;
     border-radius: 8px ;
