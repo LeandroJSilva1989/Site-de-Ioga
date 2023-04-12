@@ -63,3 +63,8 @@
     height: 46px;
     cursor: pointer;
 }
+
+.main-experts .button-find {
+    color: white;
+    background-color: #FF1448;
+}
