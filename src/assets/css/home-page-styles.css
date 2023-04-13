@@ -1,0 +1,12 @@
+@import url(reset.css);
+@import url(global.css);
+@import url(components/banner-promocional.css);
+@import url(components/container-brands.css);
+@import url(components/container-galery.css);
+@import url(components/container-products.css);
+@import url(components/footer.css);
+@import url(components/form-principal.css);
+@import url(components/main-banner.css);
+@import url(components/main-header.css);
+@import url(components/options-banner.css);
+@import url(components/responsivo.css);
