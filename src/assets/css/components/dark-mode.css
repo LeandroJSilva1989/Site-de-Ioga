@@ -8,7 +8,7 @@
 }*/
 
 .dark {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-body.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-body.jpg);
 }
 
 .dark .main-header .menu-navigation ul .main-action {
@@ -16,7 +16,7 @@
 }
 
 .dark .main-header .menu-list .menu-dark::content  {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/list-dark.png);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/list-dark.png);
 }
 
 .dark .main-banner .wrapper .main-box .main-title {
@@ -49,7 +49,7 @@
 }
 
 .dark .main-skills {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-skills.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-skills.jpg);
 }
 
 .dark .main-skills .-second {
@@ -57,7 +57,7 @@
 } 
 
 .dark .wrapper-card figure {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-figure-skills.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-figure-skills.jpg);
   color: #FFFFFF;
   background-size: cover;
 }
@@ -72,7 +72,7 @@
 }
 
 .dark .main-experts {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-find-tutor.jpg), url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-tutor.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-find-tutor.jpg), url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-tutor.jpg);
   background-blend-mode: multiply;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .dark .main-experts figure {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-figure-tutor.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-figure-tutor.jpg);
   color: #FFFFFF;
   background-size: cover;
 }
@@ -104,13 +104,13 @@
 }
 
 .dark .depositions-carousel .dark-depositions {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-figure-depositions.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-figure-depositions.jpg);
   color: #FFFFFF;
   background-size: cover;
 }
 
 .dark .depositions-carousel_mobile .dark-depositions {
-  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/css/background-dark-figure-depositions.jpg);
+  background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/background-dark-figure-depositions.jpg);
   color: #FFFFFF;
   background-size: cover;
 }
