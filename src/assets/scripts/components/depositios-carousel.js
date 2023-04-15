@@ -79,8 +79,8 @@ function showSlides(n) {
 const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
 const prevButton = document.getElementById('previewDepositions');
 const nextButton = document.getElementById('nextDepositions');
-const dotFirst = document.getElementById('first');
-const dotSecond = document.getElementById('second');
+
+
 
 
 
@@ -107,21 +107,21 @@ function updateButtonStates() {
   if (currentSlideIndex <= 0) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
-    dotFirst.disabled = true;
+   
   } else {
     // o carrossel não está no início, ativa o botão "preview"
     prevButton.disabled = false;
-    dotFirst.disabled = false;
+    
   }
 
   if (currentSlideIndex >= carousel.children.length - 1) {
     // o carrossel está no final, desativa o botão "next"
     nextButton.disabled = true;
-    dotSecond.disabled = true;
+    
   } else {
     // o carrossel não está no final, ativa o botão "next"
     nextButton.disabled = false;
-    dotSecond.disabled = false;
+    
   }
 }
 
