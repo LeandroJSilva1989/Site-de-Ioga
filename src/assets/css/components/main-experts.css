@@ -25,7 +25,7 @@
     top: 50%;
     transform: translatey(-50%);
     margin-left: auto;
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/imgages/Exclude.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/imgages/Group%2022.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/Exclude.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/Group%2022.svg);
     height: 819px;
     background-repeat: no-repeat;
     display: flex;
