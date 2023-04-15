@@ -104,7 +104,7 @@ function handleNextButtonClick() {
 }
 
 function updateButtonStates() {
-  if (currentSlideIndex <= 0) {
+  if (currentSlideIndex <= 0 && first.classList.contains('active')) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
    
@@ -125,24 +125,5 @@ function updateButtonStates() {
   }
 }
 
-function plusSlides(n) {
-  var currentSlideIndex = slideIndex + n;
-  var numSlides = document.getElementsByClassName("depositions-carousel-slide").length;
-
-  // Verificar se o novo índice está fora dos limites do carousel
-  if (currentSlideIndex <= 1) {
-      document.getElementById("previewDepositions").disabled = true; // Desativar botão de "Preview"
-  } else {
-      document.getElementById("previewDepositions").disabled = false; // Ativar botão de "Preview"
-  }
-
-  if (currentSlideIndex >= numSlides) {
-      document.getElementById("nextDepositions").disabled = true; // Desativar botão de "Next"
-  } else {
-      document.getElementById("nextDepositions").disabled = false; // Ativar botão de "Next"
-  }
-
-  showSlides(slideIndex += n);
-}
 
 
