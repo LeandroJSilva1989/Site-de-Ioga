@@ -4,7 +4,7 @@
 }
 
 .main-banner .wrapper {
-    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Exclude.png);
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background-banner.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Exclude.png), url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Exclude.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right, 13rem 10%, 0% 95%;
     display: flow-root;

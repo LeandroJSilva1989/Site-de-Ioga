@@ -247,7 +247,7 @@
     height: 840px;
     align-content: flex-end;
     display: grid;
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
     background-repeat: no-repeat;
     background-position: 30px 2px;
   }
@@ -361,7 +361,7 @@
   }
 
   .main-banner .wrapper {
-    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background-banner.png);
     background-repeat: no-repeat;
     background-position: 89% 3%;
     display: flow-root;
@@ -465,7 +465,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -553,7 +553,7 @@
   }
 
   .main-banner .wrapper {
-    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background-banner.png);
     background-repeat: no-repeat;
     background-position: 89% 3%;
     display: flow-root;
@@ -657,7 +657,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -744,7 +744,7 @@
   }
 
   .main-banner .wrapper {
-    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background-banner.png);
     background-repeat: no-repeat;
     background-position: 89% 3%;
     display: flow-root;
@@ -848,7 +848,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -940,7 +940,7 @@
   }
 
   .main-banner .wrapper {
-    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background-banner.png);
+    background: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background-banner.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right, 13rem 10%, 0% 95%;
     display: grid;
@@ -973,7 +973,7 @@
     display: block;
     padding: 2.9375rem 50px 0;
     height: 571px;
-    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/Background%20main-skills.png);
+    background-image: url(https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/Background%20main-skills.png);
     padding-bottom: 4.625rem;
   }
 
@@ -981,7 +981,7 @@
     height: 840px;
     align-content: flex-end;
     display: grid;
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/assets/img/Group%2022.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/Group%2022.svg);
     background-repeat: no-repeat;
     background-position: top left, 699px 213px;
     margin-left: auto;
