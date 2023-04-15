@@ -7,9 +7,9 @@ function changeTheme() {
    var img = document.querySelector("#menu-dark");
 
    if (myCheck.checked === true) {
-      img.setAttribute('src', 'https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/list-dark.png');
+      img.setAttribute('src', 'https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/list-dark.png');
    } else {
-      img.setAttribute('src', 'https://leandrojsilva1989.github.io/Site-de-Ioga/assets/img/list-menu.png');
+      img.setAttribute('src', 'https://leandrojsilva1989.github.io/Site-de-Ioga/src/assets/images/list-menu.png');
    }
 
 
