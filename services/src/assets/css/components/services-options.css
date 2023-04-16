@@ -1,6 +1,11 @@
 .services-options {
   display: flex;
+  flex-wrap: wrap;
+
+}
+
+.services-options .description-service {
+  display: flex;
   flex-direction: column;
   align-content: center;
-  
 }
