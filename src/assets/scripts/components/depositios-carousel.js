@@ -81,11 +81,7 @@ const prevButton = document.getElementById('previewDepositions');
 const nextButton = document.getElementById('nextDepositions');
 
 
-
-
-
 // define o índice inicial do carrossel
-let dotFirst = document.getElementsByClassName('first');
 let currentSlideIndex = 0;
 updateButtonStates();
 
@@ -106,6 +102,9 @@ function handleNextButtonClick() {
 }
 
 function updateButtonStates() {
+
+  let dotFirst = document.querySelector('.first');
+
   if (currentSlideIndex <= 0 ||  dotFirst.classList.contains('active')) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
