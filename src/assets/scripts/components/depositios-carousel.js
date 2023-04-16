@@ -29,7 +29,7 @@ buttonsWrapper.addEventListener("click", e => {
 
   if (e.target.nodeName === "BUTTON") {
     Array.from(buttonsWrapper.children).forEach(item =>
-      item.classList.remove("active")
+      item.classList.remove(" active")
     );
 
     if (e.target.classList.contains("first")) {
@@ -37,10 +37,10 @@ buttonsWrapper.addEventListener("click", e => {
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second")) {
       slides.style.transform = "translateX(-22.3%)";
-      e.target.classList.add("active");
+      e.target.classList.add(" active");
     } else if (e.target.classList.contains('third')) {
       slides.style.transform = 'translatex(-44.6%)';
-      e.target.classList.add('active');
+      e.target.classList.add(' active');
 
     }
 
@@ -69,10 +69,10 @@ function showSlides(n) {
     slides[i].style.display = "";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace("active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex - 1].style.display = "flex";
-  dots[slideIndex - 1].className += "active";
+  dots[slideIndex - 1].className += " active";
 }
 
 // recupera os elementos HTML relevantes
@@ -83,6 +83,7 @@ const nextButton = document.getElementById('nextDepositions');
 
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
+let dotFirst = document.querySelector('.first');
 updateButtonStates();
 
 
@@ -103,9 +104,7 @@ function handleNextButtonClick() {
 
 function updateButtonStates() {
 
-  let dotFirst = document.querySelector('.first');
-
-  if ( dotFirst.classList.contains(' active')) {
+  if ( dotFirst.classList.contains('.active')) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
    
