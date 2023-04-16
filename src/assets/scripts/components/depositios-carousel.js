@@ -69,10 +69,10 @@ function showSlides(n) {
     slides[i].style.display = "";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace("active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex - 1].style.display = "flex";
-  dots[slideIndex - 1].className += "active";
+  dots[slideIndex - 1].className += " active";
 }
 
 // recupera os elementos HTML relevantes
@@ -106,21 +106,21 @@ function updateButtonStates() {
   if (currentSlideIndex <= 0) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
-   
+
   } else {
     // o carrossel não está no início, ativa o botão "preview"
     prevButton.disabled = false;
-    
+
   }
 
   if (currentSlideIndex >= carousel.children.length - 1) {
     // o carrossel está no final, desativa o botão "next"
     nextButton.disabled = true;
-    
+
   } else {
     // o carrossel não está no final, ativa o botão "next"
     nextButton.disabled = false;
-    
+
   }
 }
 
