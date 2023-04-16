@@ -72,7 +72,7 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace("active", "");
   }
   slides[slideIndex - 1].style.display = "flex";
-  dots[slideIndex - 1].className = "active";
+  dots[slideIndex - 1].className += "active";
 }
 
 // recupera os elementos HTML relevantes
@@ -105,7 +105,7 @@ function updateButtonStates() {
 
   let dotFirst = document.querySelector('.first');
 
-  if (currentSlideIndex <= 0 ||  dotFirst.classList.contains('active')) {
+  if ( dotFirst.classList.contains('active')) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
    
