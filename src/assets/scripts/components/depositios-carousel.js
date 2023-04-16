@@ -106,7 +106,7 @@ function handleNextButtonClick() {
 }
 
 function updateButtonStates() {
-  if (currentSlideIndex <= 0 ||  dotFirst.contains('active')) {
+  if (currentSlideIndex <= 0 ||  dotFirst.classList.contains('active')) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
    
