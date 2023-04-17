@@ -6,6 +6,7 @@
   height: 514px;
   align-items: center;
   gap: 86px;
+  flex-wrap: wrap;
 
 }
 
@@ -13,7 +14,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 231px;
+  max-width: 223px;
   line-height: 25px;
   text-align: center;
   
