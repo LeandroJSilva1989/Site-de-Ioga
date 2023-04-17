@@ -1,4 +1,9 @@
 .main-header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding: 47px 100px 0;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
