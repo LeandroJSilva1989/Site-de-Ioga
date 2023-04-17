@@ -1,11 +1,36 @@
 .services-options {
   display: flex;
-  flex-wrap: wrap;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 514px;
+  align-items: center;
+  gap: 86px;
 
 }
 
 .services-options .description-service {
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 231px;
+  line-height: 25px;
+  text-align: center;
+  
+}
+
+.description-service .main-title.-second {
+  line-height: 68px;
+}
+
+.description-service .description-services {
+  line-height: 26px;
+}
+
+.description-service .service-started {
+  line-height: 42px;
+  margin-top: 25px;
+  padding: 0 20px 0 20px;
+  border: solid 1px #FF1448;
+  cursor: pointer;
 }

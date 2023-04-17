@@ -8,7 +8,7 @@
   width: auto;
 }
 
-.main-header .main-title-second {
+.main-header .main-title.-second {
   margin-left: 50%;
   transform: translateX(-50%);
 }
