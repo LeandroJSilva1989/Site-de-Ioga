@@ -7,3 +7,9 @@
   margin-right: auto;
   width: auto;
 }
+
+.main-header .main-title-second {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
