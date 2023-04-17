@@ -52,7 +52,7 @@ a:not([class]) {
 /* Torne as imagens mais fáceis de trabalhar */
 img,
 picture {
-  max-width: 100%;
+  
   display: block;
 }
 

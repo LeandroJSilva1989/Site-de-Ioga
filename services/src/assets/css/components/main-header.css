@@ -11,5 +11,6 @@
 .main-header .main-title.-second {
   margin-left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 
