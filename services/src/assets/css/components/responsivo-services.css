@@ -1,0 +1,7 @@
+@media screen and (min-width: 321px) and (max-width: 414px) {
+  .main-header .main-title.-second {
+    margin-left: 20%;
+    white-space: nowrap;
+    transform: translateX(-20%);
+  }
+}
