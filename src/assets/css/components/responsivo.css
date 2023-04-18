@@ -247,7 +247,7 @@
     height: 840px;
     align-content: flex-end;
     display: grid;
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/heart.svg);
     background-repeat: no-repeat;
     background-position: 30px 2px;
   }
@@ -465,7 +465,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -657,7 +657,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -848,7 +848,7 @@
   }
 
   .depositions-content {
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/heart.svg);
     background-position: 25px top;
   }
 
@@ -981,7 +981,7 @@
     height: 840px;
     align-content: flex-end;
     display: grid;
-    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/Group%2022.svg);
+    background-image: url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/master/src/assets/images/heart.svg), url(https://raw.githubusercontent.com/LeandroJSilva1989/Site-de-Ioga/src/assets/images/Group%2022.svg);
     background-repeat: no-repeat;
     background-position: top left, 699px 213px;
     margin-left: auto;
