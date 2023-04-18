@@ -5,7 +5,7 @@
   margin-right: auto;
   height: 514px;
   align-items: center;
-  gap: 86px;
+  gap: 55px;
   flex-wrap: wrap;
   margin-top: 100px;
   justify-content: center;
@@ -16,14 +16,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 223px;
   line-height: 25px;
+  max-width: 244px;
   text-align: center;
+  padding: 14px;
+  box-sizing: border-box;
   
 }
 
 .services-options .description-service:hover {
-border: solid 1px #FF1448;  
+  outline: solid 1px #FF1448; 
 }
 
 .description-service .main-title.-second {
