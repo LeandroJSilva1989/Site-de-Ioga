@@ -1,12 +1,67 @@
+@keyframes services-animation1 {
+  from {left: 50%;}
+  to {left: 50%;}
+}
 
+@keyframes services-animation2 {
+  from {left: 50%;}
+  to {left: 0%;}
+}
 
+@keyframes services-animation3 {
+  from {right: 50%;}
+  to {right: 0%;}
+}
+
+@keyframes services-animation4 {
+  from {right: 40%;}
+  to {right: 20%;}
+}
+
+#animation1 {
+  animation-timing-function: linear;
+  animation: services-animation1 5s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+#animation1 {
+  animation-timing-function: linear;
+  animation: services-animation2 5s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+#animation1 {
+  animation-timing-function: linear;
+  animation: services-animation3 5s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+#animation1 {
+  animation-timing-function: linear;
+  animation: services-animation4 5s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+.description-content .description-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 25px;
+  max-width: 244px;
+  text-align: center;
+  padding: 14px;
+  box-sizing: border-box;
+}
 
 .services-options .description-content {
   display: flex;
   max-width: 1152px;
   margin-left: auto;
   margin-right: auto;
-  height: 514px;
   align-items: center;
   gap: 55px;
   flex-wrap: wrap;
@@ -16,20 +71,9 @@
   height: max-content;
 }
 
-.services-options .description-service {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  line-height: 25px;
-  max-width: 244px;
-  text-align: center;
-  padding: 14px;
-  box-sizing: border-box;
-
-}
-
 .services-options .description-service:hover {
   outline: solid 1px #FF1448;
+  
 }
 
 .description-service .main-title.-second {
