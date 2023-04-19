@@ -25,21 +25,21 @@
   animation-fill-mode: forwards;
 }
 
-#animation1 {
+#animation2 {
   animation-timing-function: linear;
   animation: services-animation2 5s 1;
   position: absolute;
   animation-fill-mode: forwards;
 }
 
-#animation1 {
+#animation3 {
   animation-timing-function: linear;
   animation: services-animation3 5s 1;
   position: absolute;
   animation-fill-mode: forwards;
 }
 
-#animation1 {
+#animation4 {
   animation-timing-function: linear;
   animation: services-animation4 5s 1;
   position: absolute;
