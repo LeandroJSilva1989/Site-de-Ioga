@@ -1,51 +1,3 @@
-@keyframes services-animation1 {
-  from {left: 50%;}
-  to {left: 27%;}
-}
-
-@keyframes services-animation2 {
-  from {left: 50%;}
-  to {left: 0%;}
-}
-
-@keyframes services-animation3 {
-  from {right: 50%;}
-  to {right: 0%;}
-}
-
-@keyframes services-animation4 {
-  from {right: 50%;}
-  to {right: 25%;}
-}
-
-#animation1 {
-  animation-timing-function: linear;
-  animation: services-animation1 5s 1;
-  position: absolute;
-  animation-fill-mode: forwards;
-}
-
-#animation2 {
-  animation-timing-function: linear;
-  animation: services-animation2 5s 1;
-  position: absolute;
-  animation-fill-mode: forwards;
-}
-
-#animation3 {
-  animation-timing-function: linear;
-  animation: services-animation3 5s 1;
-  position: absolute;
-  animation-fill-mode: forwards;
-}
-
-#animation4 {
-  animation-timing-function: linear;
-  animation: services-animation4 5s 1;
-  position: absolute;
-  animation-fill-mode: forwards;
-}
-
 .description-content .description-service {
   display: flex;
   flex-wrap: wrap;
@@ -60,14 +12,12 @@
 
 .services-options .description-content {
   display: flex;
-  max-width: 1152px;
   flex-wrap: wrap;
   margin-top: 100px;
   padding-bottom: 80px;
   height: max-content;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
+  gap: 43px;
 }
 
 .services-options .description-service:hover {
