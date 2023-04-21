@@ -1,6 +1,6 @@
 @keyframes services-animation1 {
   from {left: 50%;}
-  to {left: 50%;}
+  to {left: 27%;}
 }
 
 @keyframes services-animation2 {
@@ -14,8 +14,8 @@
 }
 
 @keyframes services-animation4 {
-  from {right: 40%;}
-  to {right: 20%;}
+  from {right: 50%;}
+  to {right: 25%;}
 }
 
 #animation1 {
