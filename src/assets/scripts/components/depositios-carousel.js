@@ -47,6 +47,12 @@ buttonsWrapper.addEventListener("click", e => {
   }
 });
 
+//Cria uma Callback para desativar o prevButton e nextButton quando clicar no dot inicial e no dot final
+function desativa() {
+  const dot = document.querySelector(".dot");
+  dot.classList.remove("active");
+}
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -102,9 +108,8 @@ function handleNextButtonClick() {
 }
 
 function updateButtonStates() {
-  let dotFirst = document.querySelector('.depositions-options .first');
-
-  if (currentSlideIndex <= 0 || dotFirst.classList.contains('active') ) {
+ 
+  if (currentSlideIndex <= 0) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
 
