@@ -57,18 +57,17 @@
   box-sizing: border-box;
 }
 
+
 .services-options .description-content {
   display: flex;
   max-width: 1152px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  gap: 55px;
   flex-wrap: wrap;
   margin-top: 100px;
-  justify-content: center;
   padding-bottom: 80px;
   height: max-content;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .services-options .description-service:hover {
