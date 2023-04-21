@@ -90,6 +90,7 @@ const nextButton = document.getElementById('nextDepositions');
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
 updateButtonStates();
+desativa();
 
 
 // adiciona um manipulador de eventos "click" para cada botão
