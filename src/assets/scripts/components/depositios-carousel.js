@@ -74,7 +74,6 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
-  updateButtonStates();
 }
 
 // recupera os elementos HTML relevantes
