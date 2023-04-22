@@ -47,12 +47,6 @@ buttonsWrapper.addEventListener("click", e => {
   }
 });
 
-//Cria uma Callback para desativar o prevButton e nextButton quando clicar no dot inicial e no dot final
-function desativa() {
-  const dot = document.querySelector(".dot");
-  dot.classList.remove("active");
-}
-
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -63,6 +57,7 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  updateButtonStates();
 }
 
 function showSlides(n) {
@@ -90,7 +85,7 @@ const nextButton = document.getElementById('nextDepositions');
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
 updateButtonStates();
-desativa();
+
 
 
 // adiciona um manipulador de eventos "click" para cada botão
@@ -108,6 +103,10 @@ function handleNextButtonClick() {
   updateButtonStates();
 }
 
+
+
+
+// define a função para atualizar o estado dos botães
 function updateButtonStates() {
  
   if (currentSlideIndex <= 0) {
@@ -130,6 +129,23 @@ function updateButtonStates() {
 
   }
 }
+
+const selectorDot = document.querySelectorAll('.dot');
+selectorDot.forEach(dot => {
+  dot.addEventListener('click', () => {
+    updateButtonStates();
+  });
+});
+
+
+
+
+
+
+
+
+
+
 
 
 
