@@ -131,11 +131,10 @@ function updateButtonStates() {
 }
 
 const selectorDot = document.getElementsByClassName("dot");
-selectorDot.forEach(dot => {
-  dot.addEventListener('click', () => {
+selectorDot.addEventListener('click', () => {
     updateButtonStates();
   });
-});
+
 
 
 
