@@ -130,7 +130,7 @@ function updateButtonStates() {
   }
 }
 
-const selectorDot = document.querySelectorAll('.dot');
+const selectorDot = document.getElementsByClassName("dot");
 selectorDot.forEach(dot => {
   dot.addEventListener('click', () => {
     updateButtonStates();
