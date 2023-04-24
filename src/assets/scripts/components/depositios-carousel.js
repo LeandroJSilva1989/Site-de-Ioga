@@ -130,7 +130,8 @@ function updateButtonStates() {
   }
 }
 
-document.getElementsByClassName('dot').addEventListener('click', updateButtonStates);
+let dotss = document.querySelector('.dot');
+dotss.addEventListener('click', updateButtonStates);
 
 
 
