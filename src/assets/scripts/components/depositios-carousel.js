@@ -130,10 +130,7 @@ function updateButtonStates() {
   }
 }
 
-const selectorDot = document.getElementsByClassName("dot");
-selectorDot.addEventListener('click', () => {
-    updateButtonStates();
-  });
+document.getElementsByClassName('dot').addEventListener('click', updateButtonStates);
 
 
 
