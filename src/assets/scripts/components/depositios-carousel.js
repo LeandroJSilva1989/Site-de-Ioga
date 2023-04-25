@@ -117,7 +117,7 @@ function handleNextButtonClick() {
 
 
 
-
+/*
 // define a função para atualizar o estado dos botães
 function updateButtonStates() {
  
@@ -145,7 +145,7 @@ function updateButtonStates() {
 const dotss = document.querySelectorAll("button.dot");
 dotss.addEventListener('click', updateButtonStates);
 
-
+*/
 
 
 
