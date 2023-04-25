@@ -48,6 +48,11 @@ buttonsWrapper.addEventListener("click", e => {
 });
 
 
+
+const prevButton = document.getElementById('previewDepositions');
+const nextButton = document.getElementById('nextDepositions');
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -90,8 +95,7 @@ function showSlides(n) {
 
 // recupera os elementos HTML relevantes
 const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
-const prevButton = document.getElementById('previewDepositions');
-const nextButton = document.getElementById('nextDepositions');
+
 
 
 // define o índice inicial do carrossel
