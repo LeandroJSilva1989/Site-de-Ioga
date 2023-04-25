@@ -70,7 +70,7 @@ function currentSlide(n) {
     prevButton.disabled = false;
   }
 
-  if (n == slides.length) {
+  if (n == 3) {
     nextButton.disabled = true;
   } else {
     nextButton.disabled = false;
