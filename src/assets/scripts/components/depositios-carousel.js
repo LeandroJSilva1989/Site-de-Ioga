@@ -74,6 +74,18 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
+
+  if (n == 1) {
+    prevButton.disabled = true;
+  } else {
+    prevButton.disabled = false;
+  }
+
+  if (n == slides.length) {
+    nextButton.disabled = true;
+  } else {
+    nextButton.disabled = false;
+  }
 }
 
 // recupera os elementos HTML relevantes
