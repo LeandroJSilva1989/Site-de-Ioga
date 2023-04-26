@@ -89,7 +89,7 @@ const carousel = document.querySelector('.wrapper-depositions .depositions-carou
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
 updateButtonStates();
-
+updateDots ()
 
 
 // adiciona um manipulador de eventos "click" para cada botão
@@ -100,13 +100,13 @@ nextButton.addEventListener('click', handleNextButtonClick);
 function handlePrevButtonClick() {
   currentSlideIndex--;
   updateButtonStates();
-  updateDots ();
+ 
 }
 
 function handleNextButtonClick() {
   currentSlideIndex++;
   updateButtonStates();
-  updateDots ();
+  
 }
 
 
