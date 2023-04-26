@@ -62,23 +62,7 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-  
-
-  if (n == 1) {
-    prevButton.disabled = true;
-    
-  } else {
-    prevButton.disabled = false;
-    updateButtonStates();
-  }
-
-  if (n == 3) {
-    nextButton.disabled = true;
-  } else {
-    nextButton.disabled = false;
-    updateButtonStates();
-  }
-
+  updateButtonStates();
 }
 
 function showSlides(n) {
@@ -116,11 +100,13 @@ nextButton.addEventListener('click', handleNextButtonClick);
 function handlePrevButtonClick() {
   currentSlideIndex--;
   updateButtonStates();
+  updateDots ();
 }
 
 function handleNextButtonClick() {
   currentSlideIndex++;
   updateButtonStates();
+  updateDots ();
 }
 
 
@@ -150,9 +136,20 @@ function updateButtonStates() {
   }
 }
 
-var dotBtn = document.querySelectorAll('.dot');
+function updateDots () {
+  let dotss = document.querySelectorAll('dot.first');
 
-dotBtn.addEventListener('click',  alert('teste') );
+  if (dotss.classList.contains('active')) {
+    prevButton.disabled = true;
+
+  } else {
+    // o carrossel não está no início, ativa o botão "preview"
+    prevButton.disabled = false;
+  }
+    
+  }
+
+
 
 
 
