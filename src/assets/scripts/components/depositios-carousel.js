@@ -139,7 +139,7 @@ function updateButtonStates() {
 function updateDots() {
   let dotss = document.querySelectorAll('button.first');
 
-  if (dotss.length <= currentSlideIndex) {
+  if (dotss.length <= 1) {
     // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
 
