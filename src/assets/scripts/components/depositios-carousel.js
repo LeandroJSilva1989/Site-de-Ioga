@@ -136,10 +136,10 @@ function updateButtonStates() {
   }
 }
 
-function updateDots () {
+function updateDots() {
   let dotss = document.querySelectorAll('dot.first');
 
-  if (dotss.classList.contains('active')) {
+  if (dotss.classList('active')) {
     prevButton.disabled = true;
 
   } else {
