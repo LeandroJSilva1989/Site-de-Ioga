@@ -62,19 +62,23 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-  updateButtonStates();
+  
 
   if (n == 1) {
     prevButton.disabled = true;
+    
   } else {
     prevButton.disabled = false;
+    updateButtonStates();
   }
 
   if (n == 3) {
     nextButton.disabled = true;
   } else {
     nextButton.disabled = false;
+    updateButtonStates();
   }
+
 }
 
 function showSlides(n) {
@@ -146,6 +150,9 @@ function updateButtonStates() {
   }
 }
 
+var dotBtn = document.querySelectorAll('.dot');
+
+dotBtn.addEventListener('click',  alert('teste') );
 
 
 
