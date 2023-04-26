@@ -137,9 +137,10 @@ function updateButtonStates() {
 }
 
 function updateDots() {
-  let dotss = document.querySelectorAll('dot.first');
+  let dotss = document.querySelectorAll('button.first');
 
-  if (dotss.classList('active')) {
+  if (dotss.length <= currentSlideIndex) {
+    // o carrossel está no início, desativa o botão "preview"
     prevButton.disabled = true;
 
   } else {
