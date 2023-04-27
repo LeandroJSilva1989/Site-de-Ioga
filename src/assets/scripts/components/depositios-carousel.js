@@ -59,7 +59,7 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
+/*
 function currentSlide(n) {
   showSlides(slideIndex = n);
   updateButtonStates();
@@ -80,16 +80,17 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
 }
+*/
+
 
 // recupera os elementos HTML relevantes
 const carousel = document.querySelector('.wrapper-depositions .depositions-carousel');
 
 
-
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
 updateButtonStates();
-updateDots ()
+
 
 
 // adiciona um manipulador de eventos "click" para cada botão
@@ -136,19 +137,47 @@ function updateButtonStates() {
   }
 }
 
-function updateDots() {
-  let dotss = document.getElementsByClassName('first');
+function currentSlide(n) {
+  let slides = document.getElementsByClassName("deposition-slides");
+  let dots = document.getElementsByClassName("dot");
+  let previewBtn = document.getElementById("previewDepositions");
+  let nextBtn = document.getElementById("nextDepositions");
 
-  if (dotss.classList.contains('active')) {
-    // o carrossel está no início, desativa o botão "preview"
-    prevButton.disabled = true;
+  // verifica se n está dentro do intervalo dos slides
+  if (n < 1) {
+    n = 1;
+  } else if (n > slides.length) {
+    n = slides.length;
+  }
 
+  // esconde todos os slides e remove a classe "active" dos dots
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    dots[i].classList.remove("active");
+  }
+
+  // exibe o slide selecionado e adiciona a classe "active" ao dot correspondente
+  slides[n - 1].style.display = "block";
+  dots[n - 1].classList.add("active");
+
+  // desativa o botão preview se estiver no primeiro slide
+  if (n == 1) {
+    previewBtn.disabled = true;
   } else {
-    // o carrossel não está no início, ativa o botão "preview"
-    prevButton.disabled = false;
+    previewBtn.disabled = false;
   }
-    
+
+  // desativa o botão next se estiver no último slide
+  if (n == slides.length) {
+    nextBtn.disabled = true;
+  } else {
+    nextBtn.disabled = false;
   }
+}
+
+
+
+
 
 
 
