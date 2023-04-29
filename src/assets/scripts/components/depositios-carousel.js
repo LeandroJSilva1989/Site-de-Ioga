@@ -4,7 +4,7 @@ const btnLeft = document.querySelector(".btn-arrow-left");
 const elements = document.querySelector(".elements");
 let pixels = 0;
 
-updateButtonStates();
+
 
 
 
@@ -62,7 +62,7 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
-  //updateButtonStates();
+  updateButtonStates();
 }
 
 function showSlides(n) {
@@ -72,7 +72,7 @@ function showSlides(n) {
   let prevButton = document.getElementById('previewDepositions');
   let nextButton = document.getElementById('nextDepositions');
 
-  updateButtonStates();
+  
   /*
   if (n > slides.length) { slideIndex = 1 }
   if (n < 1) { slideIndex = slides.length }
@@ -160,7 +160,7 @@ const carousel = document.querySelector('.wrapper-depositions .depositions-carou
 
 // define o índice inicial do carrossel
 let currentSlideIndex = 0;
-//updateButtonStates();
+updateButtonStates();
 
 
 
