@@ -49,8 +49,7 @@ buttonsWrapper.addEventListener("click", e => {
 
 
 
-const prevButton = document.getElementById('previewDepositions');
-const nextButton = document.getElementById('nextDepositions');
+
 
 
 let slideIndex = 1;
@@ -69,8 +68,21 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("depositions-carousel-slide");
   let dots = document.getElementsByClassName("dot");
+  let prevButton = document.getElementById('previewDepositions');
+  let nextButton = document.getElementById('nextDepositions');
+
+  /*
   if (n > slides.length) { slideIndex = 1 }
   if (n < 1) { slideIndex = slides.length }
+  */
+
+  // verifica se n está dentro do intervalo dos slides
+  if (n < 1) {
+    n = 1;
+  } else if (n > slides.length) {
+    n = slides.length;
+  }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "";
   }
@@ -94,6 +106,48 @@ function showSlides(n) {
   }
 
 }
+
+
+/*
+function currentSlide(n) {
+  let slides = document.getElementsByClassName("deposition-slides");
+  let dots = document.getElementsByClassName("dot");
+  let previewBtn = document.getElementById("previewDepositions");
+  let nextBtn = document.getElementById("nextDepositions");
+
+  // verifica se n está dentro do intervalo dos slides
+  if (n < 1) {
+    n = 1;
+  } else if (n > slides.length) {
+    n = slides.length;
+  }
+
+  // esconde todos os slides e remove a classe "active" dos dots
+  for (let i = 0; i < slides.length; i++) {
+    
+    dots[i].classList.remove("active");
+  }
+
+  // exibe o slide selecionado e adiciona a classe "active" ao dot correspondente
+  
+  dots[n - 1].classList.add("active");
+
+  // desativa o botão preview se estiver no primeiro slide
+  if (n == 1) {
+    previewBtn.disabled = true;
+  } else {
+    previewBtn.disabled = false;
+  }
+
+  // desativa o botão next se estiver no último slide
+  if (n == slides.length) {
+    nextBtn.disabled = true;
+  } else {
+    nextBtn.disabled = false;
+  }
+}
+
+*/
 
 
 
@@ -152,46 +206,6 @@ function updateButtonStates() {
   }
 }
 
-/*
-function currentSlide(n) {
-  let slides = document.getElementsByClassName("deposition-slides");
-  let dots = document.getElementsByClassName("dot");
-  let previewBtn = document.getElementById("previewDepositions");
-  let nextBtn = document.getElementById("nextDepositions");
-
-  // verifica se n está dentro do intervalo dos slides
-  if (n < 1) {
-    n = 1;
-  } else if (n > slides.length) {
-    n = slides.length;
-  }
-
-  // esconde todos os slides e remove a classe "active" dos dots
-  for (let i = 0; i < slides.length; i++) {
-    
-    dots[i].classList.remove("active");
-  }
-
-  // exibe o slide selecionado e adiciona a classe "active" ao dot correspondente
-  
-  dots[n - 1].classList.add("active");
-
-  // desativa o botão preview se estiver no primeiro slide
-  if (n == 1) {
-    previewBtn.disabled = true;
-  } else {
-    previewBtn.disabled = false;
-  }
-
-  // desativa o botão next se estiver no último slide
-  if (n == slides.length) {
-    nextBtn.disabled = true;
-  } else {
-    nextBtn.disabled = false;
-  }
-}
-
-*/
 
 
 
