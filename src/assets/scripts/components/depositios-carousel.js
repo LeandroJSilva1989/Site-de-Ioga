@@ -79,9 +79,8 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
-}
 
- if (n == 1) {
+  if (n == 1) {
     prevButton.disabled = true;
   } else {
     prevButton.disabled = false;
@@ -93,6 +92,9 @@ function showSlides(n) {
   } else {
     nextButton.disabled = false;
   }
+
+}
+
 
 
 
