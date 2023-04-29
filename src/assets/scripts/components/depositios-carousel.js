@@ -90,7 +90,7 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace("active", "");
   }
   //slides[slideIndex - 1].style.display = "flex";
-  dots[slideIndex - 1].className += " active";
+  dots[n - 1].className += " active";
 
   if (n == 1) {
     prevButton.disabled = true;
