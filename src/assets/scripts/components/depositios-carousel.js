@@ -59,7 +59,7 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-/*
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
   updateButtonStates();
@@ -80,7 +80,20 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "flex";
   dots[slideIndex - 1].className += " active";
 }
-*/
+
+ if (n == 1) {
+    prevButton.disabled = true;
+  } else {
+    prevButton.disabled = false;
+  }
+
+  // desativa o botão next se estiver no último slide
+  if (n == slides.length) {
+    nextButton.disabled = true;
+  } else {
+    nextButton.disabled = false;
+  }
+
 
 
 // recupera os elementos HTML relevantes
@@ -137,6 +150,7 @@ function updateButtonStates() {
   }
 }
 
+/*
 function currentSlide(n) {
   let slides = document.getElementsByClassName("deposition-slides");
   let dots = document.getElementsByClassName("dot");
@@ -174,6 +188,8 @@ function currentSlide(n) {
     nextBtn.disabled = false;
   }
 }
+
+*/
 
 
 
