@@ -152,7 +152,7 @@ function currentSlide(n) {
 
   // esconde todos os slides e remove a classe "active" dos dots
   for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    
     dots[i].classList.remove("active");
   }
 
