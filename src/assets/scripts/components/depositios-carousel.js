@@ -78,9 +78,9 @@ function showSlides(n) {
 
   // verifica se n está dentro do intervalo dos slides
   if (n < 1) {
-    n = 1;
-  } else if (n > slides.length) {
     n = slides.length;
+  } else if (n > slides.length) {
+    n = 1;
   }
 
   for (i = 0; i < slides.length; i++) {
