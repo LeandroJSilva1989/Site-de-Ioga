@@ -157,7 +157,7 @@ function currentSlide(n) {
   }
 
   // exibe o slide selecionado e adiciona a classe "active" ao dot correspondente
-  slides[n - 1].style.display = "block";
+  
   dots[n - 1].classList.add("active");
 
   // desativa o botão preview se estiver no primeiro slide
