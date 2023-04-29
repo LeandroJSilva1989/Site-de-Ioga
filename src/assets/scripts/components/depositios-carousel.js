@@ -118,7 +118,7 @@ function updateButtonStates() {
  
   if (currentSlideIndex <= 0) {
     // o carrossel está no início, desativa o botão "preview"
-    updateButtonStates()
+    prevButton.disabled = true;
 
   } else {
     // o carrossel não está no início, ativa o botão "preview"
