@@ -99,7 +99,7 @@ function showSlides(n) {
   }
 
   // desativa o botão next se estiver no último slide
-  if (n == slides.length) {
+  if (n == slides.length -1) {
     nextButton.disabled = true;
   } else {
     nextButton.disabled = false;
