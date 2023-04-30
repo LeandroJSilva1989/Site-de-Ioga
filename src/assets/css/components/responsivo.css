@@ -313,6 +313,7 @@
     display: flex;
     overflow: hidden;
     width: auto;
+    height: 337px;
   }
 
   .depositions-carousel_mobile {
@@ -513,6 +514,7 @@
 
   .wrapper-depositions {
     width: auto;
+    height: 333px;
   }
 
 
