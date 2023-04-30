@@ -1,6 +1,8 @@
 const btnRightMobile = document.querySelector(".btn-arrow-right-mobile");
 const btnLeftMobile = document.querySelector(".btn-arrow-left-mobile");
 const elementsMobile = document.querySelector(".elements-mobile");
+const prevButtonMobile = document.getElementById('previewDepositionsMobile');
+const nextButtonMobile = document.getElementById('nextDepositionsMobile');
 let pixelsMobile = 0;
 
 
@@ -34,10 +36,10 @@ buttonsWrapperMobile.addEventListener("click", e => {
       slidesMobile.style.transform = "translateX(-0%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains("second-mobile")) {
-      slidesMobile.style.transform = "translateX(-22.3%)";
+      slidesMobile.style.transform = "translateX(-100%)";
       e.target.classList.add("active");
     } else if (e.target.classList.contains('third-mobile')) {
-      slidesMobile.style.transform = 'translatex(-44.6%)';
+      slidesMobile.style.transform = 'translatex(-200%)';
       e.target.classList.add('active');
 
     }
@@ -61,22 +63,46 @@ function showSlidesMobile(n) {
   let i;
   let slides = document.getElementsByClassName("depositions-carousel-slide_mobile");
   let dots = document.getElementsByClassName("dot-mobile");
-  if (n > slides.length) { slideIndexMobile = 1 }
-  if (n < 1) { slideIndexMobile = slides.length }
+
+
+  /*
+    if (n > slides.length) { slideIndexMobile = 1 }
+    if (n < 1) { slideIndexMobile = slides.length }
+  */
+
+  // verifica se n está dentro do intervalo dos slides
+  if (n < 1) {
+    n = slides.length;
+  } else if (n > slides.length) {
+    n = 1;
+  }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "";
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace("active", "");
   }
-  slides[slideIndexMobile - 1].style.display = "flex";
+  //slides[slideIndexMobile - 1].style.display = "flex";
   dots[slideIndexMobile - 1].className += " active";
+
+  if (n == 1) {
+    prevButtonMobile.disabled = true;
+  } else {
+    prevButtonMobile.disabled = false;
+  }
+
+  // desativa o botão next se estiver no último slide
+  if (n == 3) {
+    nextButtonMobile.disabled = true;
+  } else {
+    nextButtonMobile.disabled = false;
+  }
 }
 
 // recupera os elementos HTML relevantes
 const carouselMobile = document.querySelector('.wrapper-depositions_mobile .depositions-carousel_mobile');
-const prevButtonMobile = document.getElementById('previewDepositionsMobile');
-const nextButtonMobile = document.getElementById('nextDepositionsMobile');
+
 
 
 // define o índice inicial do carrossel
