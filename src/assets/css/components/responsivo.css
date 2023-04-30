@@ -346,7 +346,12 @@
 
 
   .main-footer {
-    display: none;
+    height: 272px;
+    align-items: center;
+    display: inline-flex;
+    max-width: -webkit-fill-available;
+    position: absolute;
+    text-align: center;
   }
 }
 
