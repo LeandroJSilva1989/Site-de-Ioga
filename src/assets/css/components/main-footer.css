@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   max-width: 1125px;
+  margin-right: auto;
+  margin-left: auto;
   justify-content: space-around;
 }
 
