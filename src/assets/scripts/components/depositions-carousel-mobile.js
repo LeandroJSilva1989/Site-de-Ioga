@@ -144,7 +144,6 @@ function updateButtonStatesMobile() {
 }
 
 
-/*
 function handleCarouselMove() {
   if (carouselMobile.scrollLeft === 0) {
     prevButtonMobile.disabled = true;
@@ -174,42 +173,11 @@ carouselMobile.addEventListener('touchmove', (e) => {
   touchStartX = touchMoveX;
 });
 
-*/
 
 
-/*
 
-function prevSlide() {
-  if (currentSlideIndexMobile > 0) {
-    currentSlideIndexMobile--;
-    carouselMobile.scrollLeft = slides[currentSlideIndexMobile].offsetLeft;
-  }
-}
 
-function nextSlide() {
-  if (currentSlideIndexMobile < slides.length - 1) {
-    currentSlideIndexMobile++;
-    carouselMobile.scrollLeft = slides[currentSlideIndexMobile].offsetLeft;
-  }
-}
 
-prevButtonMobile.disabled = true;
-
-carouselMobile.addEventListener('touchMove', () => {
-  if (currentSlideIndexMobile === 0) {
-    prevButtonMobile.disabled = true;
-  } else {
-    prevButtonMobile.disabled = false;
-  }
-
-  if (currentSlideIndexMobile === slides.length - 1) {
-    nextButtonMobile.disabled = true;
-  } else {
-    nextButtonMobile.disabled = false;
-  }
-});
-
-*/
 
 
 
