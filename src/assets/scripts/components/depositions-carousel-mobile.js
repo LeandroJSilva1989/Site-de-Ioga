@@ -117,11 +117,13 @@ nextButtonMobile.addEventListener('click', handleNextButtonClickMobile);
 function handlePrevButtonClickMobile() {
   currentSlideIndexMobile--;
   updateButtonStatesMobile();
+  handleCarouselMove();
 }
 
 function handleNextButtonClickMobile() {
   currentSlideIndexMobile++;
   updateButtonStatesMobile();
+  handleCarouselMove();
 }
 
 function updateButtonStatesMobile() {
