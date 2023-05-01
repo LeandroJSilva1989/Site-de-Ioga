@@ -24,9 +24,7 @@
 }
 
 .main-footer .logo-footer {
-  margin-left: 60px;
-  position: relative;
-  bottom: 69px;
+  flex: 1;
 }
 
 .social-media {
