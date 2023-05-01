@@ -143,6 +143,7 @@ function updateButtonStatesMobile() {
   }
 }
 
+let touchStartX = 0;
 
 function handleCarouselMove() {
   if (carouselMobile.scrollLeft === 0) {
