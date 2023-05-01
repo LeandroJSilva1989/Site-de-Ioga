@@ -12,6 +12,8 @@
   display: flex;
   font-weight: 500;
   font-size: 12px;
+  gap: 165px;
+  flex-wrap: wrap;
 }
 
 .nav-footer ul {
@@ -24,13 +26,9 @@
 }
 
 .main-footer .logo-footer {
-  flex: 1;
+  margin-right: 20px;
 }
 
-.social-media {
-  position: relative;
-  left: 102px;
-}
 
 .social-media ul li a i {
   color: #F62C55;

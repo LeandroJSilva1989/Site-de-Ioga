@@ -361,6 +361,10 @@
     flex-wrap: wrap;
     gap: 52px;
   }
+
+  .main-footer .logo-footer {
+    flex: 1;
+  }
 }
 
 @media screen and (min-width: 415px) and (max-width: 767.99px) {
