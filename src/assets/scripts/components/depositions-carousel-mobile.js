@@ -144,7 +144,7 @@ function updateButtonStatesMobile() {
 }
 
 
-
+/*
 function handleCarouselMove() {
   if (carouselMobile.scrollLeft === 0) {
     prevButtonMobile.disabled = true;
@@ -174,11 +174,11 @@ carouselMobile.addEventListener('touchmove', (e) => {
   touchStartX = touchMoveX;
 });
 
-handleCarouselMove();
+*/
 
 
 
-/*
+
 function prevSlide() {
   if (currentSlideIndexMobile > 0) {
     currentSlideIndexMobile--;
@@ -208,7 +208,7 @@ carouselMobile.addEventListener('touchMove', () => {
     nextButtonMobile.disabled = false;
   }
 });
-*/
+
 
 
 
