@@ -117,13 +117,11 @@ nextButtonMobile.addEventListener('click', handleNextButtonClickMobile);
 function handlePrevButtonClickMobile() {
   currentSlideIndexMobile--;
   updateButtonStatesMobile();
-  handleCarouselMove();
 }
 
 function handleNextButtonClickMobile() {
   currentSlideIndexMobile++;
   updateButtonStatesMobile();
-  handleCarouselMove();
 }
 
 function updateButtonStatesMobile() {
@@ -176,6 +174,7 @@ carouselMobile.addEventListener('touchmove', (e) => {
   touchStartX = touchMoveX;
 });
 
+handleCarouselMove();
 
 
 
