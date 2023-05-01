@@ -145,9 +145,39 @@ function updateButtonStatesMobile() {
 
 
 
+function handleCarouselMove() {
+  if (carouselMobile.scrollLeft === 0) {
+    prevButtonMobile.disabled = true;
+  } else {
+    prevButtonMobile.disabled = false;
+  }
+
+  if (carouselMobile.scrollLeft + carouselMobile.offsetWidth >= carouselMobile.scrollWidth) {
+    nextButtonMobile.disabled = true;
+  } else {
+    nextButtonMobile.disabled = false;
+  }
+}
+
+prevButtonMobile.disabled = true;
+
+carouselMobile.addEventListener('touchstart', (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+carouselMobile.addEventListener('touchmove', (e) => {
+  e.preventDefault();
+  const touchMoveX = e.changedTouches[0].screenX;
+  const touchDifferenceX = touchStartX - touchMoveX;
+  carouselMobile.scrollLeft += touchDifferenceX;
+  handleCarouselMove();
+  touchStartX = touchMoveX;
+});
 
 
 
+
+/*
 function prevSlide() {
   if (currentSlideIndexMobile > 0) {
     currentSlideIndexMobile--;
@@ -177,7 +207,7 @@ carouselMobile.addEventListener('touchMove', () => {
     nextButtonMobile.disabled = false;
   }
 });
-
+*/
 
 
 
