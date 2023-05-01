@@ -177,7 +177,7 @@ carouselMobile.addEventListener('touchmove', (e) => {
 */
 
 
-
+/*
 
 function prevSlide() {
   if (currentSlideIndexMobile > 0) {
@@ -209,7 +209,7 @@ carouselMobile.addEventListener('touchMove', () => {
   }
 });
 
-
+*/
 
 
 
