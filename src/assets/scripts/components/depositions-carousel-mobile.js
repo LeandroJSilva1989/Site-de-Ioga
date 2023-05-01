@@ -164,7 +164,7 @@ function nextSlide() {
 
 prevButtonMobile.disabled = true;
 
-carouselMobile.addEventListener('scroll', () => {
+carouselMobile.addEventListener('touchMove', () => {
   if (currentSlideIndexMobile === 0) {
     prevButtonMobile.disabled = true;
   } else {
